@@ -1,0 +1,1 @@
+ALTER FUNCTION public.notify_push_status_change() SET search_path = public;

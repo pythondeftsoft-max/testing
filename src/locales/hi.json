@@ -1,0 +1,668 @@
+{
+  "common": {
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "close": "बंद करें",
+    "loading": "लोड हो रहा है...",
+    "error": "त्रुटि",
+    "success": "सफलता",
+    "submit": "जमा करें",
+    "delete": "हटाएं",
+    "edit": "संपादित करें",
+    "view": "देखें",
+    "search": "खोजें",
+    "filter": "फ़िल्टर",
+    "reset": "रीसेट",
+    "apply": "लागू करें",
+    "back": "वापस",
+    "next": "अगला",
+    "previous": "पिछला",
+    "confirm": "पुष्टि करें",
+    "yes": "हां",
+    "no": "नहीं",
+    "or": "या",
+    "and": "और",
+    "all": "सभी",
+    "none": "कोई नहीं",
+    "select": "चुनें",
+    "required": "आवश्यक",
+    "optional": "वैकल्पिक",
+    "noResults": "कोई परिणाम नहीं मिला",
+    "tryAgain": "पुनः प्रयास करें",
+    "goHome": "होम पर जाएं",
+    "create": "बनाएं",
+    "open": "खोलें",
+    "download": "डाउनलोड करें",
+    "upload": "अपलोड करें",
+    "details": "विवरण",
+    "actions": "कार्रवाइयां",
+    "status": "स्थिति",
+    "date": "तारीख",
+    "time": "समय",
+    "amount": "राशि",
+    "total": "कुल",
+    "name": "नाम",
+    "email": "ईमेल",
+    "phone": "फोन",
+    "address": "पता",
+    "description": "विवरण",
+    "notes": "नोट्स",
+    "type": "प्रकार",
+    "category": "श्रेणी",
+    "priority": "प्राथमिकता",
+    "active": "सक्रिय",
+    "inactive": "निष्क्रिय",
+    "pending": "लंबित",
+    "completed": "पूर्ण",
+    "approved": "स्वीकृत",
+    "rejected": "अस्वीकृत",
+    "other": "अन्य",
+    "selectPlaceholder": "चुनें..."
+  },
+  "nav": {
+    "home": "होम",
+    "findHome": "घर खोजें",
+    "about": "हमारे बारे में",
+    "dashboard": "डैशबोर्ड",
+    "properties": "संपत्तियां",
+    "tenants": "किरायेदार",
+    "payments": "भुगतान",
+    "settings": "सेटिंग्स",
+    "messages": "संदेश",
+    "notifications": "सूचनाएं",
+    "login": "लॉगिन",
+    "signUp": "साइन अप",
+    "signOut": "साइन आउट",
+    "profile": "प्रोफ़ाइल",
+    "viewProfile": "प्रोफ़ाइल देखें",
+    "paymentSettings": "भुगतान सेटिंग्स",
+    "userRoles": "उपयोगकर्ता/भूमिकाएं",
+    "menu": "मेनू",
+    "maintenance": "रखरखाव",
+    "reports": "रिपोर्ट",
+    "help": "सहायता",
+    "logout": "लॉगआउट",
+    "register": "पंजीकरण",
+    "support": "सहायता",
+    "signIn": "साइन इन"
+  },
+  "admin": {
+    "dashboardHome": "डैशबोर्ड होम",
+    "matchMaker": "मैचमेकर",
+    "propertyMgmt": "संपत्ति प्रबंधन",
+    "clientServices": "ग्राहक सेवाएं",
+    "leaseRenewals": "पट्टा नवीनीकरण",
+    "territoriesTeams": "क्षेत्र और टीम",
+    "directory": "निर्देशिका",
+    "emailHub": "ईमेल केंद्र",
+    "adminMessaging": "एडमिन संदेश",
+    "notificationCenter": "अधिसूचना केंद्र",
+    "maintenance": "रखरखाव",
+    "analytics": "विश्लेषण",
+    "activity": "गतिविधि",
+    "workerPerformance": "कर्मचारी प्रदर्शन",
+    "formulas": "सूत्र",
+    "accessPermissions": "पहुंच और अनुमतियां",
+    "important": "महत्वपूर्ण",
+    "security": "सुरक्षा",
+    "subscriptions": "सदस्यता",
+    "pointsReferrals": "अंक और रेफरल",
+    "billing": "बिलिंग",
+    "rentTracking": "किराया ट्रैकिंग",
+    "whiteLabel": "व्हाइट लेबल",
+    "content": "सामग्री",
+    "implementationCenter": "कार्यान्वयन केंद्र",
+    "pitchDeck": "प्रस्तुति",
+    "management": "प्रबंधन",
+    "communications": "संचार",
+    "administration": "प्रशासन",
+    "system": "सिस्टम",
+    "business": "व्यापार",
+    "landlordPro": "मकान मालिक Pro",
+    "title": "व्यवस्थापक पैनल",
+    "users": "उपयोगकर्ता",
+    "roles": "भूमिकाएं",
+    "permissions": "अनुमतियां",
+    "logs": "सिस्टम लॉग",
+    "support": "सहायता टिकट"
+  },
+  "auth": {
+    "login": "लॉगिन",
+    "signUp": "साइन अप",
+    "signOut": "साइन आउट",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "confirmPassword": "पासवर्ड की पुष्टि करें",
+    "forgotPassword": "पासवर्ड भूल गए?",
+    "resetPassword": "पासवर्ड रीसेट करें",
+    "createAccount": "खाता बनाएं",
+    "alreadyHaveAccount": "पहले से खाता है?",
+    "dontHaveAccount": "खाता नहीं है?",
+    "orContinueWith": "या इससे जारी रखें",
+    "signIn": {
+      "title": "साइन इन करें",
+      "email": "ईमेल",
+      "password": "पासवर्ड",
+      "forgotPassword": "पासवर्ड भूल गए?",
+      "noAccount": "खाता नहीं है?",
+      "signUp": "साइन अप करें",
+      "submit": "साइन इन करें"
+    },
+    "forgotPasswordForm": {
+      "title": "पासवर्ड रीसेट करें",
+      "description": "अपना ईमेल दर्ज करें और हम आपको रीसेट लिंक भेजेंगे",
+      "submit": "रीसेट लिंक भेजें",
+      "backToSignIn": "साइन इन पर वापस जाएं"
+    },
+    "toast": {
+      "signInSuccess": "सफलतापूर्वक साइन इन किया!",
+      "signOutSuccess": "सफलतापूर्वक साइन आउट किया!",
+      "signUpSuccess": "खाता बनाया गया! अपना ईमेल जांचें।",
+      "resetEmailSent": "पासवर्ड रीसेट ईमेल भेजा गया!",
+      "error": "प्रमाणीकरण त्रुटि"
+    }
+  },
+  "dashboard": {
+    "welcome": "वापसी पर स्वागत है",
+    "overview": "अवलोकन",
+    "totalRevenue": "कुल राजस्व",
+    "activeLeases": "सक्रिय पट्टे",
+    "occupancyRate": "अधिभोग दर",
+    "pendingPayments": "लंबित भुगतान",
+    "recentActivity": "हाल की गतिविधि",
+    "quickActions": "त्वरित कार्रवाई",
+    "viewAll": "सभी देखें",
+    "portfolio": "पोर्टफोलियो",
+    "analytics": "विश्लेषण",
+    "netWorth": "कुल संपत्ति",
+    "cashFlow": "नकदी प्रवाह",
+    "income": "आय",
+    "expenses": "व्यय"
+  },
+  "landlordDashboard": {
+    "title": "मकान मालिक डैशबोर्ड",
+    "welcome": "वापस स्वागत है",
+    "tabs": {
+      "overview": "अवलोकन",
+      "properties": "संपत्तियां",
+      "tenants": "किरायेदार",
+      "payments": "भुगतान",
+      "maintenance": "रखरखाव",
+      "reports": "रिपोर्ट",
+      "analytics": "विश्लेषण",
+      "documents": "दस्तावेज़"
+    },
+    "metrics": {
+      "totalProperties": "कुल संपत्तियां",
+      "occupancyRate": "अधिभोग दर",
+      "monthlyRevenue": "मासिक राजस्व",
+      "pendingPayments": "लंबित भुगतान",
+      "maintenanceRequests": "रखरखाव अनुरोध",
+      "activeLeases": "सक्रिय पट्टे"
+    },
+    "actions": {
+      "addProperty": "संपत्ति जोड़ें",
+      "inviteTenant": "किरायेदार आमंत्रित करें",
+      "createLease": "पट्टा बनाएं",
+      "viewReports": "रिपोर्ट देखें",
+      "sendNotice": "नोटिस भेजें",
+      "scheduleInspection": "निरीक्षण शेड्यूल करें"
+    },
+    "propertyStatus": {
+      "occupied": "किराए पर",
+      "vacant": "खाली",
+      "maintenance": "रखरखाव में",
+      "listed": "सूचीबद्ध"
+    },
+    "recentActivity": "हाल की गतिविधि",
+    "upcomingPayments": "आगामी भुगतान",
+    "quickActions": "त्वरित कार्रवाइयां"
+  },
+  "tenantDashboard": {
+    "title": "किरायेदार डैशबोर्ड",
+    "welcome": "वापस स्वागत है",
+    "tabs": {
+      "overview": "अवलोकन",
+      "payments": "भुगतान",
+      "maintenance": "रखरखाव",
+      "documents": "दस्तावेज़",
+      "messages": "संदेश",
+      "lease": "पट्टा"
+    },
+    "cards": {
+      "rentDue": "देय किराया",
+      "nextPayment": "अगला भुगतान",
+      "leaseEnds": "पट्टा समाप्ति",
+      "maintenanceStatus": "रखरखाव स्थिति",
+      "balance": "शेष राशि",
+      "property": "संपत्ति"
+    },
+    "actions": {
+      "payRent": "किराया भुगतान करें",
+      "submitRequest": "अनुरोध जमा करें",
+      "viewLease": "पट्टा देखें",
+      "contactLandlord": "मकान मालिक से संपर्क करें",
+      "downloadReceipt": "रसीद डाउनलोड करें",
+      "updateProfile": "प्रोफ़ाइल अपडेट करें"
+    },
+    "paymentHistory": "भुगतान इतिहास",
+    "maintenanceHistory": "रखरखाव इतिहास",
+    "leaseDetails": "पट्टा विवरण"
+  },
+  "properties": {
+    "title": "संपत्तियां",
+    "addProperty": "संपत्ति जोड़ें",
+    "propertyName": "संपत्ति का नाम",
+    "address": "पता",
+    "city": "शहर",
+    "state": "राज्य",
+    "zipCode": "पिन कोड",
+    "bedrooms": "बेडरूम",
+    "bathrooms": "बाथरूम",
+    "squareFeet": "वर्ग फीट",
+    "monthlyRent": "मासिक किराया",
+    "status": "स्थिति",
+    "available": "उपलब्ध",
+    "occupied": "किराए पर",
+    "maintenance": "रखरखाव",
+    "type": "प्रकार",
+    "apartment": "अपार्टमेंट",
+    "house": "घर",
+    "condo": "कोंडो",
+    "townhouse": "टाउनहाउस",
+    "units": "इकाइयां",
+    "amenities": "सुविधाएं",
+    "description": "विवरण",
+    "photos": "फ़ोटो"
+  },
+  "tenants": {
+    "title": "किरायेदार",
+    "addTenant": "किरायेदार जोड़ें",
+    "name": "नाम",
+    "email": "ईमेल",
+    "phone": "फ़ोन",
+    "leaseStart": "पट्टा शुरू",
+    "leaseEnd": "पट्टा समाप्त",
+    "rentAmount": "किराया राशि",
+    "status": "स्थिति",
+    "active": "सक्रिय",
+    "pending": "लंबित",
+    "inactive": "निष्क्रिय",
+    "documents": "दस्तावेज़",
+    "paymentHistory": "भुगतान इतिहास"
+  },
+  "payments": {
+    "title": "भुगतान",
+    "rentDue": "देय किराया",
+    "payNow": "अभी भुगतान करें",
+    "paymentHistory": "भुगतान इतिहास",
+    "amount": "राशि",
+    "dueDate": "देय तिथि",
+    "status": "स्थिति",
+    "paid": "भुगतान किया",
+    "pending": "लंबित",
+    "overdue": "अतिदेय",
+    "paymentMethod": "भुगतान विधि",
+    "card": "कार्ड",
+    "bankAccount": "बैंक खाता",
+    "autopay": "स्वचालित भुगतान",
+    "setupAutopay": "स्वचालित भुगतान सेट करें",
+    "oneTimePayment": "एकमुश्त भुगतान",
+    "processingFee": "प्रोसेसिंग शुल्क",
+    "total": "कुल",
+    "confirmPayment": "भुगतान की पुष्टि करें",
+    "paymentSuccessful": "भुगतान सफल",
+    "paymentFailed": "भुगतान विफल"
+  },
+  "maintenance": {
+    "title": "रखरखाव",
+    "submitRequest": "अनुरोध जमा करें",
+    "requestType": "अनुरोध प्रकार",
+    "priority": "प्राथमिकता",
+    "description": "विवरण",
+    "status": "स्थिति",
+    "open": "खुला",
+    "inProgress": "प्रगति में",
+    "completed": "पूर्ण",
+    "cancelled": "रद्द",
+    "emergency": "आपातकालीन",
+    "high": "उच्च",
+    "medium": "मध्यम",
+    "low": "निम्न"
+  },
+  "messages": {
+    "title": "संदेश",
+    "newMessage": "नया संदेश",
+    "to": "को",
+    "subject": "विषय",
+    "message": "संदेश",
+    "send": "भेजें",
+    "inbox": "इनबॉक्स",
+    "sent": "भेजे गए",
+    "archived": "संग्रहीत",
+    "noMessages": "कोई संदेश नहीं"
+  },
+  "settings": {
+    "title": "सेटिंग्स",
+    "account": "खाता",
+    "preferences": "प्राथमिकताएं",
+    "notifications": "सूचनाएं",
+    "security": "सुरक्षा",
+    "language": "भाषा",
+    "currency": "मुद्रा",
+    "theme": "थीम",
+    "light": "लाइट",
+    "dark": "डार्क",
+    "system": "सिस्टम",
+    "changePassword": "पासवर्ड बदलें",
+    "twoFactor": "दो-कारक प्रमाणीकरण",
+    "tabs": {
+      "profile": "प्रोफ़ाइल",
+      "account": "खाता",
+      "notifications": "सूचनाएं",
+      "security": "सुरक्षा",
+      "billing": "बिलिंग",
+      "preferences": "प्राथमिकताएं",
+      "integrations": "एकीकरण"
+    },
+    "profile": {
+      "title": "प्रोफ़ाइल सेटिंग्स",
+      "description": "अपनी व्यक्तिगत जानकारी प्रबंधित करें",
+      "avatar": "प्रोफ़ाइल फोटो",
+      "changeAvatar": "फोटो बदलें",
+      "firstName": "पहला नाम",
+      "lastName": "अंतिम नाम",
+      "displayName": "प्रदर्शन नाम",
+      "bio": "परिचय"
+    },
+    "accountSettings": {
+      "title": "खाता सेटिंग्स",
+      "description": "अपने खाता विवरण और प्राथमिकताएं प्रबंधित करें",
+      "email": "ईमेल पता",
+      "phone": "फोन नंबर",
+      "language": "भाषा",
+      "timezone": "समय क्षेत्र",
+      "currency": "मुद्रा"
+    },
+    "notificationSettings": {
+      "title": "सूचना प्राथमिकताएं",
+      "description": "नियंत्रित करें कि आप सूचनाएं कैसे प्राप्त करते हैं",
+      "email": "ईमेल सूचनाएं",
+      "push": "पुश सूचनाएं",
+      "sms": "एसएमएस सूचनाएं",
+      "marketing": "मार्केटिंग ईमेल"
+    },
+    "securitySettings": {
+      "title": "सुरक्षा सेटिंग्स",
+      "description": "अपने खाते को सुरक्षित रखें",
+      "password": "पासवर्ड",
+      "changePassword": "पासवर्ड बदलें",
+      "twoFactor": "दो-कारक प्रमाणीकरण",
+      "sessions": "सक्रिय सत्र",
+      "loginHistory": "लॉगिन इतिहास"
+    },
+    "billingSettings": {
+      "title": "बिलिंग और सब्सक्रिप्शन",
+      "description": "अपनी बिलिंग जानकारी और सब्सक्रिप्शन प्रबंधित करें",
+      "currentPlan": "वर्तमान योजना",
+      "paymentMethod": "भुगतान विधि",
+      "billingHistory": "बिलिंग इतिहास",
+      "upgrade": "अपग्रेड करें"
+    },
+    "preferenceSettings": {
+      "title": "सामान्य प्राथमिकताएं",
+      "description": "अपना अनुभव अनुकूलित करें",
+      "theme": "थीम",
+      "darkMode": "डार्क मोड",
+      "lightMode": "लाइट मोड",
+      "systemDefault": "सिस्टम डिफ़ॉल्ट",
+      "dateFormat": "तारीख प्रारूप",
+      "timeFormat": "समय प्रारूप"
+    },
+    "paymentPreferences": {
+      "title": "भुगतान प्राथमिकताएं",
+      "defaultMethod": "डिफ़ॉल्ट भुगतान विधि",
+      "autoPay": "स्वचालित भुगतान सक्षम करें",
+      "reminderDays": "भुगतान रिमाइंडर (देय से दिन पहले)"
+    },
+    "save": "परिवर्तन सहेजें",
+    "saving": "सहेज रहा है...",
+    "saved": "सहेजा गया!"
+  },
+  "home": {
+    "hero": {
+      "title": "आधुनिक संपत्ति प्रबंधन",
+      "subtitle": "एक शक्तिशाली प्लेटफॉर्म पर अपनी संपत्तियों, किरायेदारों और भुगतानों का प्रबंधन करें",
+      "cta": "मुफ्त में शुरू करें",
+      "secondaryCta": "और जानें"
+    },
+    "highlights": {
+      "title": "हम अलग क्यों हैं",
+      "subtitle": "आधुनिक संपत्ति प्रबंधन के लिए बनाई गई सुविधाएं"
+    },
+    "portfolio": {
+      "title": "अपना पोर्टफोलियो प्रबंधित करें",
+      "subtitle": "अपनी सभी संपत्तियों पर एक नज़र में नज़र रखें"
+    },
+    "newsletter": {
+      "title": "अपडेट रहें",
+      "subtitle": "नवीनतम सुविधाओं और टिप्स के लिए सब्सक्राइब करें",
+      "placeholder": "अपना ईमेल दर्ज करें",
+      "button": "सब्सक्राइब करें"
+    }
+  },
+  "features": {
+    "title": "सुविधाएं",
+    "subtitle": "अपनी संपत्ति प्रबंधन को सरल बनाने के लिए आपको जो कुछ भी चाहिए",
+    "whyOpenKey": "OpenKey क्यों चुनें",
+    "fastOnboarding": "त्वरित शुरुआत",
+    "fastOnboardingDesc": "मार्गदर्शित चरणों के साथ मिनटों में शुरू करें।",
+    "trustSafety": "विश्वास और सुरक्षा",
+    "trustSafetyDesc": "सत्यापित वाउचर, मकान मालिक और दस्तावेज़।",
+    "smartInsights": "स्मार्ट अंतर्दृष्टि",
+    "smartInsightsDesc": "अधिभोग और आवेदनों को ट्रैक करने के लिए डैशबोर्ड।",
+    "builtInMessaging": "अंतर्निहित संदेश",
+    "builtInMessagingDesc": "बातचीत और दस्तावेज़ एक स्थान पर।",
+    "neighborhoodView": "पड़ोस का दृश्य",
+    "neighborhoodViewDesc": "सार्वजनिक परिवहन, स्कूलों आदि से निकटता देखें।",
+    "paymentsReady": "भुगतान तैयार",
+    "paymentsReadyDesc": "सुव्यवस्थित किराया संग्रह एकीकरण।",
+    "propertyManagement": {
+      "title": "संपत्ति प्रबंधन",
+      "description": "अपनी संपत्तियों को किसी भी डिवाइस से एक ही स्थान पर प्रबंधित करें"
+    },
+    "tenantScreening": {
+      "title": "किरायेदार स्क्रीनिंग",
+      "description": "बैकग्राउंड चेक और एप्लीकेशन प्रोसेसिंग"
+    },
+    "onlinePayments": {
+      "title": "ऑनलाइन भुगतान",
+      "description": "सुरक्षित ऑनलाइन किराया संग्रह और ट्रैकिंग"
+    },
+    "maintenanceTracking": {
+      "title": "रखरखाव ट्रैकिंग",
+      "description": "शुरू से अंत तक रखरखाव अनुरोधों को ट्रैक करें"
+    },
+    "documentStorage": {
+      "title": "दस्तावेज़ स्टोरेज",
+      "description": "सभी दस्तावेज़ों के लिए सुरक्षित क्लाउड स्टोरेज"
+    },
+    "reporting": {
+      "title": "रिपोर्टिंग और विश्लेषण",
+      "description": "आपके निर्णयों के लिए विस्तृत वित्तीय रिपोर्ट"
+    }
+  },
+  "cta": {
+    "title": "आज ही शुरू करें",
+    "subtitle": "हजारों संपत्ति मालिकों से जुड़ें जो हमारे प्लेटफॉर्म पर भरोसा करते हैं",
+    "button": "मुफ्त में शुरू करें",
+    "noCard": "क्रेडिट कार्ड की आवश्यकता नहीं"
+  },
+  "howItWorks": {
+    "title": "OpenKey कैसे काम करता है",
+    "subtitle": "किरायेदारों और मकान मालिकों के लिए एक स्पष्ट मार्ग",
+    "forTenants": "किरायेदारों के लिए",
+    "forLandlords": "मकान मालिकों के लिए",
+    "tenant": {
+      "step1Title": "अपनी आवश्यकताएं बताएं",
+      "step1Desc": "वाउचर, बजट, स्थान, बेडरूम",
+      "step2Title": "मिलान प्राप्त करें",
+      "step2Desc": "Section 8 अनुकूल आवास तुरंत देखें",
+      "step3Title": "आवेदन करें और रहें",
+      "step3Desc": "हर कदम पर मार्गदर्शन"
+    },
+    "landlord": {
+      "step1Title": "अपनी इकाई सूचीबद्ध करें",
+      "step1Desc": "मिनटों में सुंदर लिस्टिंग",
+      "step2Title": "योग्य किरायेदार",
+      "step2Desc": "पूर्व-जांच, वाउचर सत्यापित",
+      "step3Title": "तेजी से भरें",
+      "step3Desc": "आत्मविश्वास से रिक्तियां कम करें"
+    }
+  },
+  "testimonials": {
+    "title": "ग्राहक क्या कहते हैं",
+    "subtitle": "हमारे संतुष्ट मकान मालिकों और किरायेदारों से सुनें",
+    "testimonial1": {
+      "quote": "इस प्लेटफॉर्म ने मेरी संपत्तियों के प्रबंधन को पूरी तरह बदल दिया है। किराया संग्रह अब बहुत आसान हो गया है।",
+      "author": "राहुल शर्मा",
+      "role": "संपत्ति मालिक"
+    },
+    "testimonial2": {
+      "quote": "एक किरायेदार के रूप में, मुझे यह पसंद है कि मैं आसानी से किराया भुगतान कर सकता हूं और रखरखाव अनुरोध जमा कर सकता हूं।",
+      "author": "प्रिया पटेल",
+      "role": "किरायेदार"
+    },
+    "testimonial3": {
+      "quote": "बढ़ती हुई पोर्टफोलियो के प्रबंधन के लिए सबसे अच्छा निवेश। अत्यधिक अनुशंसित!",
+      "author": "अमित कुमार",
+      "role": "रियल एस्टेट निवेशक"
+    }
+  },
+  "stats": {
+    "properties": "संपत्तियां प्रबंधित",
+    "users": "सक्रिय उपयोगकर्ता",
+    "payments": "संसाधित भुगतान",
+    "satisfaction": "संतुष्टि दर"
+  },
+  "faq": {
+    "title": "अक्सर पूछे जाने वाले प्रश्न",
+    "subtitle": "सामान्य प्रश्नों के उत्तर",
+    "tenant": {
+      "title": "किरायेदार प्रश्न",
+      "q1": {
+        "question": "मैं अपना किराया ऑनलाइन कैसे भुगतान करूं?",
+        "answer": "अपने डैशबोर्ड में लॉग इन करें, भुगतान अनुभाग पर जाएं, और हमारे सुरक्षित भुगतान गेटवे का उपयोग करके भुगतान करें।"
+      },
+      "q2": {
+        "question": "मैं रखरखाव अनुरोध कैसे जमा करूं?",
+        "answer": "रखरखाव टैब पर जाएं, 'नया अनुरोध' पर क्लिक करें, और समस्या का विवरण भरें।"
+      },
+      "q3": {
+        "question": "क्या मैं अपना पट्टा ऑनलाइन देख सकता हूं?",
+        "answer": "हां, आपका पट्टा समझौता दस्तावेज़ अनुभाग में किसी भी समय उपलब्ध है।"
+      }
+    },
+    "landlord": {
+      "title": "मकान मालिक प्रश्न",
+      "q1": {
+        "question": "मैं एक नई संपत्ति कैसे जोड़ूं?",
+        "answer": "संपत्ति अनुभाग में 'संपत्ति जोड़ें' पर क्लिक करें और विवरण भरें।"
+      },
+      "q2": {
+        "question": "क्या मैं स्वचालित भुगतान सेटअप कर सकता हूं?",
+        "answer": "हां, किरायेदार मासिक भुगतान के लिए स्वचालित भुगतान सक्षम कर सकते हैं।"
+      },
+      "q3": {
+        "question": "क्या रिपोर्टिंग उपलब्ध है?",
+        "answer": "हां, हम विस्तृत वित्तीय रिपोर्ट और विश्लेषण प्रदान करते हैं।"
+      }
+    },
+    "admin": {
+      "title": "व्यवस्थापक प्रश्न",
+      "q1": {
+        "question": "मैं उपयोगकर्ता भूमिकाएं कैसे प्रबंधित करूं?",
+        "answer": "व्यवस्थापक पैनल में उपयोगकर्ता प्रबंधन अनुभाग पर जाएं।"
+      }
+    }
+  },
+  "contact": {
+    "title": "संपर्क करें",
+    "subtitle": "हम आपकी सहायता के लिए यहां हैं",
+    "form": {
+      "name": "आपका नाम",
+      "email": "ईमेल पता",
+      "subject": "विषय",
+      "message": "आपका संदेश",
+      "submit": "संदेश भेजें",
+      "success": "आपका संदेश सफलतापूर्वक भेजा गया!",
+      "error": "संदेश भेजने में त्रुटि। कृपया पुनः प्रयास करें।"
+    },
+    "info": {
+      "email": "support@example.com",
+      "phone": "+91 98765 43210",
+      "address": "123 मुख्य सड़क, मुंबई, भारत",
+      "hours": "सोम-शुक्र: सुबह 9 बजे - शाम 6 बजे"
+    },
+    "social": {
+      "title": "हमें फॉलो करें",
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram"
+    }
+  },
+  "errors": {
+    "somethingWentWrong": "कुछ गलत हो गया",
+    "pageNotFound": "पृष्ठ नहीं मिला",
+    "unauthorized": "अनधिकृत",
+    "forbidden": "प्रतिबंधित",
+    "serverError": "सर्वर त्रुटि",
+    "networkError": "नेटवर्क त्रुटि",
+    "tryAgainLater": "कृपया बाद में पुनः प्रयास करें",
+    "general": "कुछ गलत हो गया",
+    "notFound": "पृष्ठ नहीं मिला",
+    "validationError": "कृपया सभी आवश्यक फ़ील्ड जांचें"
+  },
+  "footer": {
+    "privacyPolicy": "गोपनीयता नीति",
+    "termsOfService": "सेवा की शर्तें",
+    "contact": "संपर्क",
+    "copyright": "© {year} सर्वाधिकार सुरक्षित।",
+    "company": "कंपनी",
+    "about": "हमारे बारे में",
+    "careers": "करियर",
+    "blog": "ब्लॉग",
+    "press": "प्रेस",
+    "resources": "संसाधन",
+    "documentation": "दस्तावेज़",
+    "helpCenter": "सहायता केंद्र",
+    "guides": "गाइड",
+    "api": "API",
+    "legal": "कानूनी",
+    "privacy": "गोपनीयता नीति",
+    "terms": "सेवा की शर्तें",
+    "cookies": "कुकी नीति",
+    "connect": "कनेक्ट करें",
+    "support": "सहायता",
+    "feedback": "फीडबैक"
+  },
+  "hero": {
+    "title": "अपना सपनों का घर खोजें",
+    "subtitle": "हजारों संपत्तियों को ब्राउज़ करें और अपने लिए सही घर खोजें",
+    "searchPlaceholder": "शहर, इलाके या पते से खोजें",
+    "needHousing": "घर चाहिए? यहां से शुरू करें",
+    "listProperty": "अपनी संपत्ति सूचीबद्ध करें"
+  },
+  "validation": {
+    "required": "यह फ़ील्ड आवश्यक है",
+    "email": "कृपया एक वैध ईमेल दर्ज करें",
+    "minLength": "कम से कम {{min}} वर्ण होने चाहिए",
+    "maxLength": "अधिकतम {{max}} वर्ण तक होने चाहिए",
+    "passwordMatch": "पासवर्ड मेल खाने चाहिए",
+    "phoneNumber": "कृपया एक वैध फोन नंबर दर्ज करें",
+    "positiveNumber": "कृपया एक सकारात्मक संख्या दर्ज करें",
+    "url": "कृपया एक वैध URL दर्ज करें",
+    "date": "कृपया एक वैध तारीख दर्ज करें"
+  }
+}

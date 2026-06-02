@@ -1,0 +1,1 @@
+UPDATE public.system_config SET config_value = 'true', updated_at = now() WHERE config_key = 'sms_system_enabled';

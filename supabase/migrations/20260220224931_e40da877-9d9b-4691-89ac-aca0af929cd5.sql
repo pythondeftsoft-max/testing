@@ -1,0 +1,1 @@
+ALTER TABLE public.tenant_rentals ADD COLUMN end_month integer, ADD COLUMN end_year integer;

@@ -1,0 +1,85 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## Project
+
+OpenKey Housing Hub — a Section 8 / Housing Assistance Payment (HAP) platform serving three user roles (**tenant**, **landlord**, **agency/PHA**) plus a deep **admin** surface. Built on Vite + React + TypeScript with a Supabase backend (Postgres, Auth, Storage, Edge Functions). Originated on **Lovable.dev** (project id `b3ed1340-...`); the `lovable-tagger` Vite plugin runs in development mode, and edits made on lovable.dev round-trip to this repo.
+
+## Commands
+
+```sh
+npm i              # install (Bun lockfile is also committed; npm is canonical per README)
+npm run dev        # Vite dev server on http://localhost:8080
+npm run build      # production build
+npm run build:dev  # development-mode build (keeps the lovable-tagger plugin)
+npm run lint       # eslint . (no `npm run typecheck` — run `tsc --noEmit` manually if needed)
+npm run preview    # serve the production build locally
+
+npx playwright test                # Playwright is a dependency with config + fixture, but no npm script
+npx playwright test e2e/foo.spec.ts  # run a single test file (once e2e/ exists)
+```
+
+`playwright.config.ts` wires up `lovable-agent-playwright-config` and expects tests under `e2e/`, but **the `e2e/` directory does not yet exist** — Playwright is plumbed in, not used. There is also **no unit/integration test suite** for the application code. QA is manual — see `docs/QA_CHECKLIST.md` (21 modules), `docs/HAP_LAUNCH_AUDIT.md`, and `docs/MULTI_AGENCY_QA.md`.
+
+## Stack notes
+
+- **React 18 + TypeScript (loose)** — `tsconfig.json` sets `strictNullChecks: false`, `noImplicitAny: false`, `allowJs: true`, and uses **project references** (not `extends`) to `tsconfig.app.json` + `tsconfig.node.json`, so the loose flags (`noImplicitAny: false`, `strict: false`, etc.) are also duplicated in `tsconfig.app.json`. Edit both if you tighten strictness. `@typescript-eslint/no-unused-vars` is also turned off in `eslint.config.js`. Don't fight these defaults; they're intentional.
+- **Path alias**: `@/*` → `./src/*` (configured in both `vite.config.ts` and `tsconfig.json`).
+- **UI**: shadcn/ui in `src/components/ui/` (configured via `components.json`, base color `slate`), Radix primitives, Tailwind with CSS variables.
+- **Server state**: TanStack Query. The shared client is in `src/lib/react-query.tsx` with `staleTime: 5min`, `gcTime: 30min`, `refetchOnWindowFocus/Reconnect/Mount: false`, and an explicit non-retry list of Postgres error codes (`PGRST204`, `42703`, `23505`, etc.). Mirror those defaults — don't introduce queries with aggressive refetching unless you have a reason.
+- **Client state**: Zustand stores in `src/stores/` (one file per slice).
+- **Routing**: `react-router-dom` v6, all routes declared inline in `src/App.tsx`. Only `Index`, `Auth`, `NotFound`, `Dashboard` are eager-imported — everything else uses `lazyRetry()` from `src/lib/lazyRetry.ts`, which retries chunk-fetch failures with exponential backoff and falls back to a guarded `window.location.reload()`. Add new pages the same way.
+- **Maps**: multiple libraries are in use (`leaflet` + `react-leaflet`, `pigeon-maps`, `mapbox-gl`, `@googlemaps/js-api-loader`) — check neighboring components before picking one.
+- **Payments**: Stripe (Connect + Checkout), Checkbook.io, Plaid. Payment flows are split across many edge functions; see `supabase/config.toml` for the full list with `verify_jwt` per function.
+
+## Architecture
+
+### App shell
+
+`src/App.tsx` wraps every route in a deep provider stack — order matters:
+
+```
+HelmetProvider → ErrorBoundary → ReactQueryProvider → AuthProvider →
+AccountRolesProvider → ThemeProvider → DynamicThemeProvider → ThemeGuard →
+TooltipProvider → PreferencesProvider → CurrencyProvider → LanguageProvider →
+SubdomainDetector → BrowserRouter → PermissionProvider → Routes
+```
+
+`SubdomainDetector` enables per-agency white-labeling (each PHA can run on its own subdomain with custom theme/branding). `DynamicThemeProvider` + `ThemeGuard` apply those overrides on top of `next-themes`.
+
+### Auth & permissions
+
+- `src/providers/AuthProvider.tsx` owns the **single** `supabase.auth.onAuthStateChange` subscription for the whole app — don't add more. On `SIGNED_OUT` it calls `queryClient.clear()` so cached per-user data doesn't leak across logins. On `SIGNED_IN` it checks MFA AAL and redirects to `/auth/mfa-challenge` when a verified factor exists but the session is only AAL1.
+- `AccountRolesProvider` exposes the user's roles across accounts (multi-tenancy).
+- `PermissionProvider` + `useAccountPermissions` / `useEffectivePermissions` + `<PermissionGuard>` implement the RBAC layer. Admin operations frequently go through the `admin-rbac` edge function rather than direct table writes.
+
+### Supabase integration
+
+- **Client**: `src/integrations/supabase/client.ts` — URL + anon key are inlined (this file is auto-generated by Lovable; the constants are not secrets, they're shipped to the browser). The client wraps `fetch` with per-route-type timeouts: auth 60s, edge functions 300s, storage uploads 120s, default 30s. Preserve this if you touch the file.
+- **Types**: `src/integrations/supabase/types.ts` (~35k lines) is **auto-generated** from the database schema. Do not hand-edit — regenerate via the Supabase CLI / Lovable.
+- **Migrations**: `supabase/migrations/` (~1,700 files). Treat them as append-only history.
+- **Edge functions**: `supabase/functions/` (~275 functions) with shared helpers in `_shared/` (`cors.ts`, `supabase-client.ts` with both `getSupabaseClient()` service-role and `getSupabaseClientWithAuth(authHeader)`, `notify-owner.ts`, `resend.ts`). `verify_jwt` is set per function in `supabase/config.toml` — webhooks (Stripe, Checkbook, Plaid, Twilio), cron jobs, and public-flow functions (`confirm-placement-fee-payment`, `accept-*-invitation`) set `verify_jwt = false`; everything else verifies. When adding a new function, register it in `supabase/config.toml` and pick the right setting.
+
+### Domain layout
+
+- `src/pages/` (~100 top-level pages) — organized by role: top-level for shared/marketing/tenant flows, plus subdirs `admin/`, `agency/`, `landlords/`, `tenants/`, `inspector/`, `tools/`, `auth/`, `account/`.
+- `src/components/` (~360 top-level files + many subdirs) — domain folders: `agency/`, `marketplace/`, `section8/`, `tenant/`, `tenant-section8/`, `property/`, `property-import/`, `unit/`, `renewal/`, `tax/`, `reporting/`, `reports/`, `security/`, `seo/`, `subscriptions/`, `rewards/`, `voucher/`, `admin/`, `permissions/`, `identity/`, `ui/` (shadcn primitives).
+- `src/hooks/` (~450 hooks) — most domain logic lives here as `useXxx.ts` hooks composed on top of Supabase + React Query. Pages mostly orchestrate hooks + components; look here first before adding a new query or mutation.
+- `src/lib/` — cross-cutting utilities: `react-query.tsx`, `lazyRetry.ts`, `queryKeys.ts`, `matchScoring*`, `prospectScoring`, `sanitizeHtml.ts`, `databaseUtils.ts`, plus formatters/locale helpers.
+- `src/stores/` — Zustand stores (mostly unread counts, tab state, portfolio health).
+- `src/providers/` — auth, account-roles, permissions, portfolio-health.
+- `src/contexts/` — preferences, currency, language.
+
+### HAP / agency model (high-level)
+
+- HAP lifecycle covers contracts (`agency_hap_contracts`), batching (draft → reviewed → approved → disbursed), NACHA ACH (`agency_nacha_*`), Checkbook.io disbursement, special claims (HUD-52671), repayment agreements, and legacy import. Rent calc lives in `AgencyRentCalculator`.
+- HUD reporting: 50058, 1099-MISC, monthly/annual statements; VMS, SEMAP, IMS-PIC are partial — check `docs/HAP_LAUNCH_AUDIT.md` for current status before claiming a capability exists.
+
+## Conventions
+
+- New routes go in `src/App.tsx` and **must** use `lazyRetry(() => import(...))` (named exports need the `.then(m => ({ default: m.X }))` wrapper, see the bottom of the file). Decide whether the route belongs to the public section or inside an auth/admin guard — if `.lovable/plan.md` exists, it may contain a design note on `success_url` routing relevant to this decision.
+- New Supabase edge functions: add a `[functions.<name>]` block to `supabase/config.toml` with the correct `verify_jwt` value, and reuse the `_shared/` helpers (cors headers, both auth/service clients, owner notifications).
+- New data fetches: add a hook under `src/hooks/`, not a query inside a component. Use the existing query-key conventions (see `src/lib/queryKeys.ts`) and respect the global retry/stale defaults.
+- Don't hand-edit `src/integrations/supabase/types.ts`.
+- This repo is round-tripped with Lovable.dev — if a `.lovable/` directory is present, `.lovable/plan.md` may contain an active design note from a Lovable session; check it before doing significant work in the same area. (It is not currently checked in.)

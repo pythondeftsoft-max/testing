@@ -1,0 +1,849 @@
+{
+  "common": {
+    "loading": "Caricamento...",
+    "error": "Errore",
+    "success": "Successo",
+    "save": "Salva",
+    "cancel": "Annulla",
+    "delete": "Elimina",
+    "edit": "Modifica",
+    "view": "Visualizza",
+    "search": "Cerca",
+    "filter": "Filtra",
+    "sort": "Ordina",
+    "actions": "Azioni",
+    "status": "Stato",
+    "date": "Data",
+    "name": "Nome",
+    "email": "Email",
+    "phone": "Telefono",
+    "address": "Indirizzo",
+    "description": "Descrizione",
+    "amount": "Importo",
+    "total": "Totale",
+    "submit": "Invia",
+    "confirm": "Conferma",
+    "back": "Indietro",
+    "next": "Avanti",
+    "previous": "Precedente",
+    "close": "Chiudi",
+    "open": "Apri",
+    "yes": "Sì",
+    "no": "No",
+    "all": "Tutti",
+    "none": "Nessuno",
+    "select": "Seleziona",
+    "required": "Obbligatorio",
+    "optional": "Opzionale",
+    "enabled": "Attivato",
+    "disabled": "Disattivato",
+    "active": "Attivo",
+    "inactive": "Inattivo",
+    "pending": "In attesa",
+    "completed": "Completato",
+    "failed": "Fallito",
+    "approved": "Approvato",
+    "rejected": "Rifiutato",
+    "verified": "Verificato",
+    "unverified": "Non verificato",
+    "reset": "Reimposta",
+    "apply": "Applica",
+    "or": "o",
+    "and": "e",
+    "noResults": "Nessun risultato trovato",
+    "tryAgain": "Riprova",
+    "goHome": "Torna alla home"
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Funzionalità",
+    "pricing": "Prezzi",
+    "about": "Chi siamo",
+    "contact": "Contatti",
+    "login": "Accedi",
+    "signup": "Registrati",
+    "dashboard": "Dashboard",
+    "logout": "Esci",
+    "profile": "Profilo",
+    "settings": "Impostazioni",
+    "help": "Aiuto",
+    "support": "Supporto",
+    "findHousing": "Trova Alloggio",
+    "listProperty": "Pubblica Proprietà",
+    "howItWorks": "Come Funziona",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "backToHome": "Torna alla Home",
+    "findHome": "Trova una casa",
+    "properties": "Immobili",
+    "tenants": "Inquilini",
+    "payments": "Pagamenti",
+    "messages": "Messaggi",
+    "notifications": "Notifiche",
+    "signUp": "Registrati",
+    "signOut": "Esci",
+    "viewProfile": "Visualizza Profilo",
+    "paymentSettings": "Impostazioni Pagamento",
+    "userRoles": "Utenti/Ruoli",
+    "menu": "Menu"
+  },
+  "admin": {
+    "dashboardHome": "Home Dashboard",
+    "matchMaker": "Abbinamento",
+    "propertyMgmt": "Gestione Immobili",
+    "clientServices": "Servizi Clienti",
+    "leaseRenewals": "Rinnovi Contratti",
+    "territoriesTeams": "Territori e Team",
+    "directory": "Directory",
+    "emailHub": "Centro Email",
+    "adminMessaging": "Messaggistica Admin",
+    "notificationCenter": "Centro Notifiche",
+    "maintenance": "Manutenzione",
+    "analytics": "Analisi",
+    "activity": "Attività",
+    "workerPerformance": "Performance Lavoratori",
+    "formulas": "Formule",
+    "accessPermissions": "Accesso e Permessi",
+    "important": "Importante",
+    "security": "Sicurezza",
+    "subscriptions": "Abbonamenti",
+    "pointsReferrals": "Punti e Referral",
+    "billing": "Fatturazione",
+    "rentTracking": "Tracciamento Affitti",
+    "whiteLabel": "White Label",
+    "content": "Contenuto",
+    "implementationCenter": "Centro Implementazione",
+    "pitchDeck": "Presentazione",
+    "management": "Gestione",
+    "communications": "Comunicazioni",
+    "administration": "Amministrazione",
+    "system": "Sistema",
+    "business": "Business",
+    "landlordPro": "Proprietario Pro"
+  },
+  "hero": {
+    "title": "Gestione Immobiliare Moderna",
+    "subtitle": "Semplifica la gestione delle tue proprietà con la nostra piattaforma completa",
+    "cta": "Inizia Ora",
+    "learnMore": "Scopri di Più",
+    "tagline": "Affidato da migliaia di proprietari",
+    "description": "Gestisci proprietà, inquilini e pagamenti tutto in un unico posto. La nostra piattaforma rende la gestione immobiliare semplice ed efficiente.",
+    "findHousing": "Cerca Alloggio? Inizia Qui",
+    "listProperty": "Pubblica la Tua Proprietà",
+    "searchPlaceholder": "Cerca per città, quartiere o indirizzo",
+    "needHousing": "Cerchi casa? Inizia qui"
+  },
+  "home": {
+    "hero": {
+      "title": "Il Modo Moderno per Gestire gli Immobili",
+      "subtitle": "Gestisci inquilini, pagamenti e proprietà senza sforzo",
+      "cta": "Inizia Gratis"
+    },
+    "points": {
+      "title": "Perché Scegliere OpenKey?",
+      "point1": {
+        "title": "Gestione Semplificata",
+        "description": "Tutti i tuoi compiti immobiliari in un'unica dashboard intuitiva"
+      },
+      "point2": {
+        "title": "Pagamenti Automatizzati",
+        "description": "Riscuoti l'affitto automaticamente con monitoraggio integrato"
+      },
+      "point3": {
+        "title": "Comunicazione Intelligente",
+        "description": "Resta connesso con inquilini e proprietari senza sforzo"
+      }
+    },
+    "portfolio": {
+      "title": "Fai Crescere il Tuo Portfolio",
+      "description": "Che tu gestisca una proprietà o cento, la nostra piattaforma si adatta alle tue esigenze"
+    },
+    "newsletter": {
+      "title": "Resta Aggiornato",
+      "description": "Ricevi le ultime novità e aggiornamenti direttamente nella tua casella",
+      "placeholder": "Inserisci la tua email",
+      "subscribe": "Iscriviti"
+    }
+  },
+  "features": {
+    "title": "Funzionalità della Piattaforma",
+    "subtitle": "Tutto ciò di cui hai bisogno per gestire le tue proprietà in modo efficace",
+    "whyOpenKey": "Perché OpenKey",
+    "fastOnboarding": "Onboarding Rapido",
+    "fastOnboardingDesc": "Inizia in pochi minuti con passaggi guidati.",
+    "trustSafety": "Fiducia e Sicurezza",
+    "trustSafetyDesc": "Voucher, proprietari e documenti verificati.",
+    "smartInsights": "Approfondimenti Intelligenti",
+    "smartInsightsDesc": "Dashboard per monitorare occupazione e candidature.",
+    "builtInMessaging": "Messaggistica Integrata",
+    "builtInMessagingDesc": "Conversazioni e documenti in un unico posto.",
+    "neighborhoodView": "Vista del Quartiere",
+    "neighborhoodViewDesc": "Vedi vicinanza a trasporti, scuole e altro.",
+    "paymentsReady": "Pagamenti Pronti",
+    "paymentsReadyDesc": "Integrazioni semplificate per la riscossione affitti.",
+    "feature1": {
+      "title": "Gestione Proprietà",
+      "description": "Organizza e monitora tutte le tue proprietà con strumenti completi di gestione"
+    },
+    "feature2": {
+      "title": "Portale Inquilini",
+      "description": "Dai agli inquilini un portale dedicato per pagamenti, richieste e comunicazione"
+    },
+    "feature3": {
+      "title": "Tracciamento Finanziario",
+      "description": "Monitora affitti, spese e genera report finanziari dettagliati"
+    },
+    "feature4": {
+      "title": "Gestione Manutenzione",
+      "description": "Gestisci le richieste di manutenzione dalla presentazione alla risoluzione"
+    },
+    "feature5": {
+      "title": "Gestione Documenti",
+      "description": "Archivia e gestisci in sicurezza contratti, documenti e registri"
+    },
+    "feature6": {
+      "title": "Analisi e Report",
+      "description": "Ottieni approfondimenti sulle performance del tuo portfolio con analisi dettagliate"
+    }
+  },
+  "cta": {
+    "title": "Pronto per Iniziare?",
+    "subtitle": "Unisciti a migliaia di proprietari e inquilini soddisfatti",
+    "button": "Crea Account Gratuito",
+    "secondaryButton": "Programma una Demo"
+  },
+  "howItWorks": {
+    "title": "Come Funziona OpenKey",
+    "subtitle": "Un percorso chiaro per inquilini e proprietari",
+    "forTenants": "Per Inquilini",
+    "forLandlords": "Per Proprietari",
+    "tenant": {
+      "step1Title": "Dicci le tue esigenze",
+      "step1Desc": "Voucher, budget, posizione, camere",
+      "step2Title": "Ricevi abbinamenti",
+      "step2Desc": "Vedi alloggi Section 8 istantaneamente",
+      "step3Title": "Candidati e trasferisciti",
+      "step3Desc": "Guida in ogni passaggio"
+    },
+    "landlord": {
+      "step1Title": "Pubblica la tua unità",
+      "step1Desc": "Annunci belli in pochi minuti",
+      "step2Title": "Inquilini qualificati",
+      "step2Desc": "Pre-selezionati, voucher verificato",
+      "step3Title": "Riempi più velocemente",
+      "step3Desc": "Riduci le vacanze con fiducia"
+    }
+  },
+  "testimonials": {
+    "title": "Cosa Dicono i Nostri Utenti",
+    "subtitle": "Affidato da proprietari e inquilini in tutto il mondo",
+    "testimonial1": {
+      "quote": "Questa piattaforma ha trasformato il modo in cui gestisco le mie proprietà. Tutto è in un unico posto.",
+      "author": "Maria Rossi",
+      "role": "Proprietaria"
+    },
+    "testimonial2": {
+      "quote": "Trovare e candidarsi per gli appartamenti non è mai stato così facile. Consiglio vivamente!",
+      "author": "Marco Bianchi",
+      "role": "Inquilino"
+    },
+    "testimonial3": {
+      "quote": "La funzione di riscossione automatica dell'affitto da sola vale il prezzo. Incredibile risparmio di tempo.",
+      "author": "Giuseppe Verdi",
+      "role": "Gestore Immobiliare"
+    }
+  },
+  "stats": {
+    "properties": "Proprietà Gestite",
+    "users": "Utenti Attivi",
+    "transactions": "Transazioni Elaborate",
+    "satisfaction": "Tasso di Soddisfazione"
+  },
+  "faq": {
+    "title": "Domande Frequenti",
+    "subtitle": "Trova risposte alle domande più comuni",
+    "tenant": {
+      "title": "Per Inquilini",
+      "q1": {
+        "question": "Come cerco le proprietà disponibili?",
+        "answer": "Puoi cercare le proprietà usando i filtri di ricerca inclusi posizione, fascia di prezzo, tipo di proprietà e servizi. Salva i tuoi preferiti per una facile consultazione."
+      },
+      "q2": {
+        "question": "Come pago l'affitto online?",
+        "answer": "Una volta che il tuo contratto è attivo, puoi pagare l'affitto tramite la dashboard usando carta di credito, bonifico bancario o addebito automatico."
+      },
+      "q3": {
+        "question": "Come invio una richiesta di manutenzione?",
+        "answer": "Vai alla sezione manutenzione nella dashboard, descrivi il problema, allega eventuali foto e invia. Sarai notificato quando verrà affrontato."
+      }
+    },
+    "landlord": {
+      "title": "Per Proprietari",
+      "q1": {
+        "question": "Come pubblico una proprietà?",
+        "answer": "Clicca su 'Aggiungi Proprietà' nella dashboard, inserisci i dettagli incluse foto, prezzo di affitto e servizi, quindi pubblicala per gli inquilini."
+      },
+      "q2": {
+        "question": "Come valuto i potenziali inquilini?",
+        "answer": "Rivedi le candidature nella dashboard delle proprietà. Puoi visualizzare i profili dei candidati, verificare referenze e approvare o rifiutare candidature."
+      },
+      "q3": {
+        "question": "Come riscuoto l'affitto?",
+        "answer": "La nostra piattaforma gestisce la riscossione automatica dell'affitto. Imposta il tuo metodo di pagamento preferito e gli inquilini saranno addebitati automaticamente ogni mese."
+      }
+    },
+    "manager": {
+      "title": "Per Gestori Immobiliari",
+      "q1": {
+        "question": "Posso gestire più proprietà per diversi proprietari?",
+        "answer": "Sì, il nostro piano aziendale ti permette di gestire proprietà di più proprietari con account separati e report."
+      },
+      "q2": {
+        "question": "Come configuro i ruoli del team?",
+        "answer": "Vai a impostazioni del team per invitare membri del team e assegnare ruoli con diversi livelli di permesso per la gestione delle proprietà."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contattaci",
+    "subtitle": "Ci piacerebbe avere tue notizie. Contattaci per qualsiasi domanda.",
+    "form": {
+      "name": "Il Tuo Nome",
+      "email": "Indirizzo Email",
+      "subject": "Oggetto",
+      "message": "Il Tuo Messaggio",
+      "submit": "Invia Messaggio",
+      "success": "Messaggio inviato con successo!",
+      "error": "Impossibile inviare il messaggio. Riprova."
+    },
+    "info": {
+      "title": "Informazioni di Contatto",
+      "email": "Email",
+      "phone": "Telefono",
+      "address": "Indirizzo",
+      "hours": "Orari di Ufficio",
+      "hoursValue": "Lun-Ven: 9:00-18:00"
+    }
+  },
+  "footer": {
+    "company": "Azienda",
+    "about": "Chi Siamo",
+    "careers": "Lavora con Noi",
+    "press": "Stampa",
+    "blog": "Blog",
+    "product": "Prodotto",
+    "features": "Funzionalità",
+    "pricing": "Prezzi",
+    "security": "Sicurezza",
+    "integrations": "Integrazioni",
+    "resources": "Risorse",
+    "documentation": "Documentazione",
+    "guides": "Guide",
+    "support": "Supporto",
+    "api": "API",
+    "legal": "Legale",
+    "privacy": "Privacy",
+    "terms": "Termini",
+    "cookies": "Cookie",
+    "copyright": "© 2024 OpenKey. Tutti i diritti riservati.",
+    "tagline": "Gestione immobiliare moderna semplificata",
+    "privacyPolicy": "Informativa sulla privacy",
+    "termsOfService": "Termini di servizio",
+    "contact": "Contatti"
+  },
+  "auth": {
+    "login": {
+      "title": "Bentornato",
+      "subtitle": "Accedi al tuo account per continuare",
+      "email": "Indirizzo Email",
+      "password": "Password",
+      "rememberMe": "Ricordami",
+      "forgotPassword": "Password Dimenticata?",
+      "submit": "Accedi",
+      "noAccount": "Non hai un account?",
+      "signUp": "Registrati"
+    },
+    "signup": {
+      "title": "Crea Account",
+      "subtitle": "Unisciti a migliaia di utenti soddisfatti",
+      "firstName": "Nome",
+      "lastName": "Cognome",
+      "email": "Indirizzo Email",
+      "password": "Password",
+      "confirmPassword": "Conferma Password",
+      "accountType": "Tipo di Account",
+      "tenant": "Inquilino",
+      "landlord": "Proprietario",
+      "agreeTerms": "Accetto i Termini e Condizioni",
+      "submit": "Crea Account",
+      "hasAccount": "Hai già un account?",
+      "signIn": "Accedi"
+    },
+    "forgotPassword": {
+      "title": "Reimposta Password",
+      "subtitle": "Inserisci la tua email per ricevere le istruzioni di reset",
+      "email": "Indirizzo Email",
+      "submit": "Invia Istruzioni",
+      "backToLogin": "Torna al Login",
+      "success": "Email di reset inviata!",
+      "checkEmail": "Controlla la tua email per le istruzioni"
+    },
+    "toast": {
+      "loginSuccess": "Bentornato!",
+      "loginError": "Credenziali non valide. Riprova.",
+      "signupSuccess": "Account creato con successo!",
+      "signupError": "Impossibile creare account. Riprova.",
+      "logoutSuccess": "Sei stato disconnesso.",
+      "resetSent": "Istruzioni di reset inviate via email."
+    },
+    "signUp": "Registrati",
+    "signOut": "Esci",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Conferma password",
+    "resetPassword": "Reimposta password",
+    "createAccount": "Crea account",
+    "alreadyHaveAccount": "Hai già un account?",
+    "dontHaveAccount": "Non hai un account?",
+    "orContinueWith": "Oppure continua con"
+  },
+  "dashboard": {
+    "welcome": "Bentornato",
+    "overview": "Panoramica",
+    "totalRevenue": "Entrate totali",
+    "activeLeases": "Contratti attivi",
+    "occupancyRate": "Tasso di occupazione",
+    "pendingPayments": "Pagamenti in sospeso",
+    "recentActivity": "Attività recente",
+    "quickActions": "Azioni rapide",
+    "viewAll": "Vedi tutto",
+    "portfolio": "Portafoglio",
+    "analytics": "Analisi",
+    "netWorth": "Patrimonio netto",
+    "cashFlow": "Flusso di cassa",
+    "income": "Entrate",
+    "expenses": "Spese"
+  },
+  "settings": {
+    "title": "Impostazioni",
+    "tabs": {
+      "profile": "Profilo",
+      "account": "Account",
+      "notifications": "Notifiche",
+      "security": "Sicurezza",
+      "billing": "Fatturazione",
+      "preferences": "Preferenze"
+    },
+    "profile": {
+      "title": "Impostazioni Profilo",
+      "description": "Gestisci le tue informazioni personali",
+      "avatar": "Foto Profilo",
+      "changeAvatar": "Cambia Foto",
+      "firstName": "Nome",
+      "lastName": "Cognome",
+      "email": "Indirizzo Email",
+      "phone": "Numero di Telefono",
+      "bio": "Biografia",
+      "save": "Salva Modifiche"
+    },
+    "account": {
+      "title": "Impostazioni Account",
+      "description": "Gestisci le impostazioni e preferenze del tuo account",
+      "language": "Lingua",
+      "timezone": "Fuso Orario",
+      "currency": "Valuta",
+      "dateFormat": "Formato Data",
+      "deleteAccount": "Elimina Account",
+      "deleteWarning": "Questa azione non può essere annullata"
+    },
+    "notifications": {
+      "title": "Preferenze Notifiche",
+      "description": "Scegli come vuoi essere notificato",
+      "email": "Notifiche Email",
+      "push": "Notifiche Push",
+      "sms": "Notifiche SMS",
+      "marketing": "Email Marketing",
+      "updates": "Aggiornamenti Prodotto",
+      "reminders": "Promemoria Pagamento"
+    },
+    "security": {
+      "title": "Impostazioni Sicurezza",
+      "description": "Proteggi il tuo account",
+      "changePassword": "Cambia Password",
+      "currentPassword": "Password Attuale",
+      "newPassword": "Nuova Password",
+      "confirmPassword": "Conferma Password",
+      "twoFactor": "Autenticazione a Due Fattori",
+      "sessions": "Sessioni Attive",
+      "logoutAll": "Disconnetti Tutti i Dispositivi"
+    },
+    "billing": {
+      "title": "Fatturazione e Abbonamento",
+      "description": "Gestisci il tuo abbonamento e i metodi di pagamento",
+      "currentPlan": "Piano Attuale",
+      "upgrade": "Aggiorna Piano",
+      "paymentMethod": "Metodo di Pagamento",
+      "addPayment": "Aggiungi Metodo di Pagamento",
+      "invoices": "Storico Fatture",
+      "downloadInvoice": "Scarica Fattura"
+    },
+    "preferences": {
+      "title": "Preferenze",
+      "description": "Personalizza la tua esperienza",
+      "theme": "Tema",
+      "light": "Chiaro",
+      "dark": "Scuro",
+      "system": "Sistema",
+      "language": "Lingua",
+      "currency": "Valuta Preferita",
+      "compactMode": "Modalità Compatta",
+      "accessibility": "Accessibilità"
+    },
+    "language": "Lingua",
+    "currency": "Valuta",
+    "theme": "Tema",
+    "light": "Chiaro",
+    "dark": "Scuro",
+    "system": "Sistema"
+  },
+  "landlordDashboard": {
+    "title": "Dashboard Proprietario",
+    "welcome": "Bentornato",
+    "overview": "Panoramica",
+    "tabs": {
+      "overview": "Panoramica",
+      "properties": "Proprietà",
+      "tenants": "Inquilini",
+      "finances": "Finanze",
+      "maintenance": "Manutenzione",
+      "documents": "Documenti",
+      "messages": "Messaggi",
+      "settings": "Impostazioni"
+    },
+    "metrics": {
+      "totalProperties": "Proprietà Totali",
+      "occupiedUnits": "Unità Occupate",
+      "vacantUnits": "Unità Libere",
+      "monthlyIncome": "Reddito Mensile",
+      "pendingPayments": "Pagamenti in Attesa",
+      "maintenanceRequests": "Richieste Manutenzione",
+      "occupancyRate": "Tasso di Occupazione",
+      "totalTenants": "Inquilini Totali"
+    },
+    "actions": {
+      "addProperty": "Aggiungi Proprietà",
+      "addTenant": "Aggiungi Inquilino",
+      "sendMessage": "Invia Messaggio",
+      "createInvoice": "Crea Fattura",
+      "scheduleViewing": "Programma Visita",
+      "exportReport": "Esporta Report"
+    },
+    "properties": {
+      "title": "Le Mie Proprietà",
+      "addNew": "Aggiungi Nuova Proprietà",
+      "viewAll": "Visualizza Tutte",
+      "status": {
+        "occupied": "Occupata",
+        "vacant": "Libera",
+        "maintenance": "In Manutenzione",
+        "listed": "Pubblicata"
+      }
+    },
+    "tenants": {
+      "title": "I Miei Inquilini",
+      "addNew": "Aggiungi Nuovo Inquilino",
+      "viewAll": "Visualizza Tutti",
+      "leaseStatus": {
+        "active": "Contratto Attivo",
+        "expiring": "In Scadenza",
+        "expired": "Scaduto"
+      }
+    },
+    "finances": {
+      "title": "Panoramica Finanziaria",
+      "income": "Entrate",
+      "expenses": "Uscite",
+      "netIncome": "Reddito Netto",
+      "pendingPayments": "Pagamenti in Attesa",
+      "recentTransactions": "Transazioni Recenti"
+    },
+    "maintenance": {
+      "title": "Manutenzione",
+      "openRequests": "Richieste Aperte",
+      "inProgress": "In Corso",
+      "completed": "Completate",
+      "priority": {
+        "low": "Bassa",
+        "medium": "Media",
+        "high": "Alta",
+        "urgent": "Urgente"
+      }
+    }
+  },
+  "tenantDashboard": {
+    "title": "Dashboard Inquilino",
+    "welcome": "Bentornato",
+    "overview": "Panoramica",
+    "tabs": {
+      "overview": "Panoramica",
+      "myHome": "La Mia Casa",
+      "payments": "Pagamenti",
+      "maintenance": "Manutenzione",
+      "documents": "Documenti",
+      "messages": "Messaggi",
+      "settings": "Impostazioni"
+    },
+    "cards": {
+      "rentDue": "Affitto Dovuto",
+      "nextPayment": "Prossimo Pagamento",
+      "leaseEnds": "Fine Contratto",
+      "openRequests": "Richieste Aperte",
+      "daysUntilDue": "giorni alla scadenza",
+      "payNow": "Paga Ora",
+      "viewLease": "Visualizza Contratto"
+    },
+    "payments": {
+      "title": "Storico Pagamenti",
+      "makePayment": "Effettua Pagamento",
+      "setupAutopay": "Imposta Pagamento Automatico",
+      "downloadReceipt": "Scarica Ricevuta",
+      "status": {
+        "paid": "Pagato",
+        "pending": "In Attesa",
+        "overdue": "Scaduto",
+        "processing": "In Elaborazione"
+      }
+    },
+    "maintenance": {
+      "title": "Richieste di Manutenzione",
+      "newRequest": "Nuova Richiesta",
+      "trackRequest": "Traccia Richiesta",
+      "status": {
+        "submitted": "Inviata",
+        "reviewed": "In Revisione",
+        "scheduled": "Programmata",
+        "completed": "Completata"
+      }
+    },
+    "documents": {
+      "title": "I Miei Documenti",
+      "lease": "Contratto di Locazione",
+      "receipts": "Ricevute di Pagamento",
+      "notices": "Avvisi",
+      "other": "Altri Documenti"
+    },
+    "actions": {
+      "payRent": "Paga Affitto",
+      "submitRequest": "Invia Richiesta",
+      "contactLandlord": "Contatta Proprietario",
+      "viewDocuments": "Visualizza Documenti",
+      "updateProfile": "Aggiorna Profilo"
+    }
+  },
+  "properties": {
+    "title": "Immobili",
+    "addProperty": "Aggiungi immobile",
+    "propertyName": "Nome immobile",
+    "address": "Indirizzo",
+    "city": "Città",
+    "state": "Regione",
+    "zipCode": "CAP",
+    "bedrooms": "Camere da letto",
+    "bathrooms": "Bagni",
+    "squareFeet": "Metri quadrati",
+    "monthlyRent": "Affitto mensile",
+    "status": "Stato",
+    "available": "Disponibile",
+    "occupied": "Occupato",
+    "maintenance": "Manutenzione",
+    "type": "Tipo",
+    "apartment": "Appartamento",
+    "house": "Casa",
+    "condo": "Condominio",
+    "townhouse": "Villetta a schiera",
+    "units": "Unità",
+    "amenities": "Servizi",
+    "description": "Descrizione",
+    "photos": "Foto"
+  },
+  "property": {
+    "details": "Dettagli Proprietà",
+    "address": "Indirizzo",
+    "type": "Tipo",
+    "bedrooms": "Camere",
+    "bathrooms": "Bagni",
+    "size": "Dimensione",
+    "rent": "Affitto",
+    "deposit": "Deposito",
+    "available": "Disponibile",
+    "amenities": "Servizi",
+    "description": "Descrizione",
+    "photos": "Foto",
+    "location": "Posizione",
+    "nearbyPlaces": "Luoghi Vicini",
+    "virtualTour": "Tour Virtuale",
+    "floorPlan": "Planimetria",
+    "applyNow": "Candidati Ora",
+    "scheduleViewing": "Programma una Visita",
+    "contactOwner": "Contatta Proprietario",
+    "addToFavorites": "Aggiungi ai Preferiti",
+    "share": "Condividi",
+    "report": "Segnala Annuncio"
+  },
+  "tenants": {
+    "title": "Inquilini",
+    "addTenant": "Aggiungi inquilino",
+    "name": "Nome",
+    "email": "Email",
+    "phone": "Telefono",
+    "leaseStart": "Inizio contratto",
+    "leaseEnd": "Fine contratto",
+    "rentAmount": "Importo affitto",
+    "status": "Stato",
+    "active": "Attivo",
+    "pending": "In sospeso",
+    "inactive": "Inattivo",
+    "documents": "Documenti",
+    "paymentHistory": "Storico pagamenti"
+  },
+  "payments": {
+    "title": "Pagamenti",
+    "rentDue": "Affitto dovuto",
+    "payNow": "Paga ora",
+    "paymentHistory": "Storico pagamenti",
+    "amount": "Importo",
+    "dueDate": "Data di scadenza",
+    "status": "Stato",
+    "paid": "Pagato",
+    "pending": "In sospeso",
+    "overdue": "Scaduto",
+    "paymentMethod": "Metodo di pagamento",
+    "card": "Carta",
+    "bankAccount": "Conto bancario",
+    "autopay": "Pagamento automatico",
+    "setupAutopay": "Configura pagamento automatico",
+    "oneTimePayment": "Pagamento unico",
+    "processingFee": "Commissione di elaborazione",
+    "total": "Totale",
+    "confirmPayment": "Conferma pagamento",
+    "paymentSuccessful": "Pagamento riuscito",
+    "paymentFailed": "Pagamento fallito"
+  },
+  "lease": {
+    "title": "Contratto di Locazione",
+    "startDate": "Data Inizio",
+    "endDate": "Data Fine",
+    "monthlyRent": "Affitto Mensile",
+    "securityDeposit": "Deposito Cauzionale",
+    "terms": "Termini e Condizioni",
+    "sign": "Firma Contratto",
+    "renew": "Rinnova Contratto",
+    "terminate": "Termina Contratto",
+    "download": "Scarica Contratto",
+    "status": {
+      "draft": "Bozza",
+      "pending": "In Attesa Firma",
+      "active": "Attivo",
+      "expired": "Scaduto",
+      "terminated": "Terminato"
+    }
+  },
+  "payment": {
+    "title": "Pagamento",
+    "amount": "Importo",
+    "dueDate": "Data Scadenza",
+    "paidDate": "Data Pagamento",
+    "method": "Metodo di Pagamento",
+    "status": "Stato",
+    "receipt": "Ricevuta",
+    "history": "Storico Pagamenti",
+    "makePayment": "Effettua Pagamento",
+    "autopay": "Pagamento Automatico",
+    "methods": {
+      "card": "Carta di Credito",
+      "bank": "Bonifico Bancario",
+      "cash": "Contanti",
+      "check": "Assegno"
+    }
+  },
+  "maintenance": {
+    "title": "Richiesta di Manutenzione",
+    "category": "Categoria",
+    "priority": "Priorità",
+    "description": "Descrizione",
+    "photos": "Foto",
+    "status": "Stato",
+    "submittedDate": "Data Invio",
+    "scheduledDate": "Data Programmata",
+    "completedDate": "Data Completamento",
+    "notes": "Note",
+    "submit": "Invia Richiesta",
+    "update": "Aggiorna Stato",
+    "submitRequest": "Invia richiesta",
+    "requestType": "Tipo di richiesta",
+    "open": "Aperto",
+    "inProgress": "In corso",
+    "completed": "Completato",
+    "cancelled": "Annullato",
+    "emergency": "Emergenza",
+    "high": "Alta",
+    "medium": "Media",
+    "low": "Bassa",
+    "categories": {
+      "plumbing": "Idraulica",
+      "electrical": "Elettricità",
+      "appliance": "Elettrodomestici",
+      "hvac": "Climatizzazione",
+      "structural": "Struttura",
+      "pest": "Disinfestazione",
+      "other": "Altro"
+    }
+  },
+  "messages": {
+    "title": "Messaggi",
+    "newMessage": "Nuovo messaggio",
+    "to": "A",
+    "subject": "Oggetto",
+    "message": "Messaggio",
+    "send": "Invia",
+    "inbox": "Posta in arrivo",
+    "sent": "Inviati",
+    "archived": "Archiviati",
+    "noMessages": "Nessun messaggio"
+  },
+  "notifications": {
+    "title": "Notifiche",
+    "markAllRead": "Segna Tutte come Lette",
+    "settings": "Impostazioni Notifiche",
+    "empty": "Nessuna notifica",
+    "types": {
+      "payment": "Notifica Pagamento",
+      "maintenance": "Aggiornamento Manutenzione",
+      "lease": "Avviso Contratto",
+      "message": "Nuovo Messaggio",
+      "system": "Aggiornamento Sistema"
+    }
+  },
+  "errors": {
+    "generic": "Qualcosa è andato storto. Riprova.",
+    "notFound": "Pagina non trovata",
+    "unauthorized": "Non sei autorizzato ad accedere a questa pagina",
+    "forbidden": "Accesso negato",
+    "serverError": "Errore del server. Riprova più tardi.",
+    "networkError": "Errore di connessione. Controlla la tua connessione.",
+    "validationError": "Correggi gli errori nel modulo",
+    "sessionExpired": "La tua sessione è scaduta. Effettua nuovamente l'accesso.",
+    "somethingWentWrong": "Qualcosa è andato storto",
+    "pageNotFound": "Pagina non trovata",
+    "tryAgainLater": "Riprova più tardi"
+  },
+  "validation": {
+    "required": "Questo campo è obbligatorio",
+    "email": "Inserisci un indirizzo email valido",
+    "phone": "Inserisci un numero di telefono valido",
+    "minLength": "Deve essere di almeno {{min}} caratteri",
+    "maxLength": "Deve essere di massimo {{max}} caratteri",
+    "passwordMatch": "Le password non corrispondono",
+    "invalidFormat": "Formato non valido"
+  }
+}

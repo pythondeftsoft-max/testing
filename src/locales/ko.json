@@ -1,0 +1,737 @@
+{
+  "nav": {
+    "home": "홈",
+    "findHome": "집 찾기",
+    "features": "기능",
+    "pricing": "가격",
+    "about": "소개",
+    "contact": "문의",
+    "login": "로그인",
+    "signup": "회원가입",
+    "signUp": "회원가입",
+    "signOut": "로그아웃",
+    "dashboard": "대시보드",
+    "logout": "로그아웃",
+    "faq": "자주 묻는 질문",
+    "blog": "블로그",
+    "properties": "부동산",
+    "tenants": "임차인",
+    "payments": "결제",
+    "settings": "설정",
+    "messages": "메시지",
+    "notifications": "알림",
+    "profile": "프로필",
+    "viewProfile": "프로필 보기",
+    "paymentSettings": "결제 설정",
+    "userRoles": "사용자/역할",
+    "menu": "메뉴"
+  },
+  "common": {
+    "loading": "로딩 중...",
+    "error": "오류",
+    "success": "성공",
+    "cancel": "취소",
+    "save": "저장",
+    "delete": "삭제",
+    "edit": "편집",
+    "view": "보기",
+    "search": "검색",
+    "filter": "필터",
+    "sort": "정렬",
+    "actions": "작업",
+    "status": "상태",
+    "date": "날짜",
+    "amount": "금액",
+    "description": "설명",
+    "name": "이름",
+    "email": "이메일",
+    "phone": "전화번호",
+    "address": "주소",
+    "submit": "제출",
+    "confirm": "확인",
+    "back": "뒤로",
+    "next": "다음",
+    "previous": "이전",
+    "close": "닫기",
+    "open": "열기",
+    "yes": "예",
+    "no": "아니오",
+    "all": "전체",
+    "none": "없음",
+    "select": "선택",
+    "required": "필수",
+    "optional": "선택사항",
+    "learnMore": "더 알아보기",
+    "reset": "재설정",
+    "apply": "적용",
+    "or": "또는",
+    "and": "그리고",
+    "noResults": "결과를 찾을 수 없습니다",
+    "tryAgain": "다시 시도",
+    "goHome": "홈으로"
+  },
+  "auth": {
+    "signIn": "로그인",
+    "signUp": "회원가입",
+    "signOut": "로그아웃",
+    "login": "로그인",
+    "email": "이메일",
+    "password": "비밀번호",
+    "confirmPassword": "비밀번호 확인",
+    "forgotPassword": "비밀번호를 잊으셨나요?",
+    "resetPassword": "비밀번호 재설정",
+    "createAccount": "계정 만들기",
+    "alreadyHaveAccount": "이미 계정이 있으신가요?",
+    "dontHaveAccount": "계정이 없으신가요?",
+    "rememberMe": "로그인 상태 유지",
+    "termsAndConditions": "이용약관",
+    "privacyPolicy": "개인정보처리방침",
+    "agreeToTerms": "이용약관에 동의합니다",
+    "welcome": "다시 오신 것을 환영합니다",
+    "welcomeBack": "다시 오신 것을 환영합니다",
+    "signInToContinue": "계속하려면 로그인하세요",
+    "createYourAccount": "계정 만들기",
+    "getStarted": "시작하기",
+    "loginSuccessful": "로그인 성공",
+    "loginFailed": "로그인 실패",
+    "signupSuccessful": "회원가입 성공",
+    "signupFailed": "회원가입 실패",
+    "logoutSuccessful": "로그아웃 성공",
+    "sessionExpired": "세션이 만료되었습니다",
+    "invalidCredentials": "잘못된 인증 정보",
+    "emailVerificationSent": "인증 이메일이 발송되었습니다",
+    "passwordResetSent": "비밀번호 재설정 링크가 발송되었습니다",
+    "checkingAuth": "인증 상태 확인 중...",
+    "signingIn": "로그인 중...",
+    "signingUp": "회원가입 중...",
+    "signingOut": "로그아웃 중...",
+    "orContinueWith": "또는 다음으로 계속"
+  },
+  "home": {
+    "hero": {
+      "title": "부동산 관리, 간편하게",
+      "subtitle": "집주인과 세입자를 연결하는 스마트한 부동산 관리 플랫폼으로 임대 관리를 간소화하세요.",
+      "cta": "무료로 시작하기",
+      "secondaryCta": "더 알아보기"
+    },
+    "highlights": {
+      "title": "왜 저희 플랫폼을 선택하시나요",
+      "subtitle": "부동산 관리 경험을 변화시키는 강력한 기능을 발견하세요",
+      "security": {
+        "title": "보안 결제",
+        "description": "암호화된 거래와 안전한 결제 처리로 안심하세요"
+      },
+      "support": {
+        "title": "연중무휴 지원",
+        "description": "언제든 도움을 드릴 전담 지원팀"
+      },
+      "analytics": {
+        "title": "스마트 분석",
+        "description": "정보에 입각한 결정을 위한 상세한 인사이트와 보고서"
+      }
+    },
+    "portfolio": {
+      "title": "성공 스토리",
+      "subtitle": "플랫폼을 신뢰하는 수천 명의 사용자와 함께하세요"
+    },
+    "newsletter": {
+      "title": "최신 정보 받기",
+      "subtitle": "뉴스레터를 구독하고 업데이트와 팁을 받아보세요",
+      "placeholder": "이메일을 입력하세요",
+      "button": "구독하기",
+      "success": "구독해 주셔서 감사합니다!",
+      "error": "구독 중 오류가 발생했습니다"
+    }
+  },
+  "hero": {
+    "title": "완벽한 집을 찾아보세요",
+    "subtitle": "수천 개의 매물을 둘러보고 나에게 맞는 집을 찾으세요",
+    "searchPlaceholder": "도시, 동네 또는 주소로 검색",
+    "needHousing": "집이 필요하신가요? 여기서 시작하세요",
+    "listProperty": "매물 등록하기"
+  },
+  "features": {
+    "title": "플랫폼 기능",
+    "subtitle": "부동산 관리를 간소화하기 위해 설계된 종합 도구",
+    "whyOpenKey": "왜 OpenKey인가",
+    "fastOnboarding": "빠른 시작",
+    "fastOnboardingDesc": "안내 단계로 몇 분 안에 시작하세요.",
+    "trustSafety": "신뢰와 안전",
+    "trustSafetyDesc": "검증된 바우처, 집주인, 문서.",
+    "smartInsights": "스마트 인사이트",
+    "smartInsightsDesc": "입주율과 신청을 추적하는 대시보드.",
+    "builtInMessaging": "내장 메시징",
+    "builtInMessagingDesc": "대화와 문서를 한 곳에서.",
+    "neighborhoodView": "지역 보기",
+    "neighborhoodViewDesc": "대중교통, 학교 등과의 거리 확인.",
+    "paymentsReady": "결제 준비 완료",
+    "paymentsReadyDesc": "간소화된 임대료 수금 통합.",
+    "rentCollection": {
+      "title": "임대료 수금",
+      "description": "자동 결제와 추적으로 임대료 수금을 자동화하세요"
+    },
+    "maintenance": {
+      "title": "유지보수 관리",
+      "description": "유지보수 요청을 효율적으로 추적하고 관리하세요"
+    },
+    "tenantScreening": {
+      "title": "세입자 심사",
+      "description": "백그라운드 체크와 세입자 검증 도구"
+    },
+    "documentManagement": {
+      "title": "문서 관리",
+      "description": "모든 중요 문서를 한 곳에서 안전하게 저장하세요"
+    },
+    "financialReporting": {
+      "title": "재무 보고",
+      "description": "재무 성과에 대한 상세한 보고서와 인사이트"
+    },
+    "communication": {
+      "title": "커뮤니케이션 허브",
+      "description": "집주인과 세입자 간 원활한 소통"
+    }
+  },
+  "cta": {
+    "title": "부동산 관리를 혁신할 준비가 되셨나요?",
+    "subtitle": "수천 명의 만족한 집주인과 세입자와 함께하세요",
+    "button": "지금 시작하기",
+    "secondaryButton": "문의하기"
+  },
+  "howItWorks": {
+    "title": "OpenKey 이용 방법",
+    "subtitle": "세입자와 집주인을 위한 명확한 경로",
+    "forTenants": "세입자용",
+    "forLandlords": "집주인용",
+    "tenant": {
+      "step1Title": "요구 사항을 알려주세요",
+      "step1Desc": "바우처, 예산, 위치, 침실 수",
+      "step2Title": "매칭 받기",
+      "step2Desc": "Section 8 친화적인 주택 즉시 확인",
+      "step3Title": "신청 및 입주",
+      "step3Desc": "모든 단계에서 안내"
+    },
+    "landlord": {
+      "step1Title": "매물 등록",
+      "step1Desc": "몇 분 안에 매력적인 리스팅 작성",
+      "step2Title": "자격 있는 세입자",
+      "step2Desc": "사전 심사, 바우처 확인 완료",
+      "step3Title": "더 빠른 입주",
+      "step3Desc": "자신감 있게 공실 줄이기"
+    }
+  },
+  "testimonials": {
+    "title": "고객 후기",
+    "subtitle": "사용자들의 생생한 경험을 들어보세요",
+    "testimonial1": {
+      "quote": "이 플랫폼은 제 부동산 관리 방식을 완전히 바꿔놓았습니다. 이제 모든 것이 한 곳에 있어요.",
+      "author": "김철수",
+      "role": "부동산 소유주"
+    },
+    "testimonial2": {
+      "quote": "임대료 결제와 유지보수 요청이 너무 편리해졌습니다. 강력 추천합니다!",
+      "author": "이영희",
+      "role": "세입자"
+    },
+    "testimonial3": {
+      "quote": "자동 결제 기능 덕분에 임대료 수금 스트레스가 사라졌습니다.",
+      "author": "박지민",
+      "role": "다가구 주택 소유주"
+    }
+  },
+  "stats": {
+    "properties": {
+      "value": "10,000+",
+      "label": "관리 부동산"
+    },
+    "users": {
+      "value": "50,000+",
+      "label": "활성 사용자"
+    },
+    "transactions": {
+      "value": "₩100억+",
+      "label": "처리된 거래"
+    },
+    "satisfaction": {
+      "value": "99%",
+      "label": "고객 만족도"
+    }
+  },
+  "faq": {
+    "title": "자주 묻는 질문",
+    "subtitle": "궁금한 점에 대한 답변을 찾아보세요",
+    "tenantQuestions": {
+      "title": "세입자 질문",
+      "q1": {
+        "question": "임대료는 어떻게 결제하나요?",
+        "answer": "대시보드에서 카드, 계좌이체 등 다양한 방법으로 안전하게 결제할 수 있습니다."
+      },
+      "q2": {
+        "question": "유지보수 요청은 어떻게 하나요?",
+        "answer": "세입자 대시보드에서 유지보수 탭을 선택하고 새 요청을 제출하면 됩니다."
+      },
+      "q3": {
+        "question": "결제 내역을 확인할 수 있나요?",
+        "answer": "네, 대시보드의 결제 섹션에서 모든 결제 내역을 확인하고 영수증을 다운로드할 수 있습니다."
+      }
+    },
+    "landlordQuestions": {
+      "title": "집주인 질문",
+      "q1": {
+        "question": "부동산을 어떻게 등록하나요?",
+        "answer": "집주인 대시보드에서 '부동산 추가' 버튼을 클릭하고 상세 정보를 입력하세요."
+      },
+      "q2": {
+        "question": "세입자를 어떻게 초대하나요?",
+        "answer": "부동산 세부 정보에서 세입자 이메일을 입력하여 초대장을 보낼 수 있습니다."
+      },
+      "q3": {
+        "question": "자동 임대료 수금을 설정할 수 있나요?",
+        "answer": "네, 설정에서 자동 결제를 활성화하면 매월 자동으로 임대료가 수금됩니다."
+      }
+    },
+    "generalQuestions": {
+      "title": "일반 질문",
+      "q1": {
+        "question": "플랫폼은 안전한가요?",
+        "answer": "네, 업계 표준 암호화와 보안 조치를 통해 모든 데이터를 안전하게 보호합니다."
+      },
+      "q2": {
+        "question": "수수료는 어떻게 되나요?",
+        "answer": "기본 기능은 무료이며, 프리미엄 기능은 합리적인 가격의 구독 플랜을 제공합니다."
+      },
+      "q3": {
+        "question": "고객 지원은 어떻게 받나요?",
+        "answer": "이메일, 채팅, 전화를 통해 연중무휴 고객 지원을 받으실 수 있습니다."
+      }
+    }
+  },
+  "contact": {
+    "title": "문의하기",
+    "subtitle": "궁금한 점이 있으시면 언제든 연락주세요",
+    "form": {
+      "name": "이름",
+      "namePlaceholder": "성함을 입력하세요",
+      "email": "이메일",
+      "emailPlaceholder": "이메일 주소를 입력하세요",
+      "subject": "제목",
+      "subjectPlaceholder": "문의 제목을 입력하세요",
+      "message": "메시지",
+      "messagePlaceholder": "메시지를 입력하세요",
+      "submit": "보내기",
+      "sending": "전송 중...",
+      "success": "메시지가 성공적으로 전송되었습니다!",
+      "error": "메시지 전송에 실패했습니다. 다시 시도해주세요."
+    },
+    "info": {
+      "title": "연락처 정보",
+      "email": "support@openkey.com",
+      "phone": "+82-2-1234-5678",
+      "address": "서울특별시 강남구 테헤란로 123",
+      "hours": "평일 오전 9시 - 오후 6시"
+    }
+  },
+  "footer": {
+    "description": "집주인과 세입자를 위한 현대적인 부동산 관리 플랫폼",
+    "quickLinks": {
+      "title": "빠른 링크",
+      "home": "홈",
+      "features": "기능",
+      "pricing": "가격",
+      "about": "소개"
+    },
+    "support": {
+      "title": "지원",
+      "faq": "자주 묻는 질문",
+      "contact": "문의하기",
+      "help": "도움말 센터"
+    },
+    "legal": {
+      "title": "법적 정보",
+      "terms": "이용약관",
+      "privacy": "개인정보처리방침",
+      "cookies": "쿠키 정책"
+    },
+    "social": {
+      "title": "소셜 미디어"
+    },
+    "copyright": "© 2024 OpenKey. 모든 권리 보유.",
+    "privacyPolicy": "개인정보 처리방침",
+    "termsOfService": "서비스 이용약관",
+    "contact": "연락처"
+  },
+  "admin": {
+    "dashboardHome": "대시보드 홈",
+    "matchMaker": "매칭",
+    "propertyMgmt": "부동산 관리",
+    "clientServices": "고객 서비스",
+    "leaseRenewals": "계약 갱신",
+    "territoriesTeams": "지역 및 팀",
+    "directory": "디렉토리",
+    "emailHub": "이메일 센터",
+    "adminMessaging": "관리자 메시지",
+    "notificationCenter": "알림 센터",
+    "maintenance": "유지보수",
+    "analytics": "분석",
+    "activity": "활동",
+    "workerPerformance": "직원 성과",
+    "formulas": "공식",
+    "accessPermissions": "접근 및 권한",
+    "important": "중요",
+    "security": "보안",
+    "subscriptions": "구독",
+    "pointsReferrals": "포인트 및 추천",
+    "billing": "청구",
+    "rentTracking": "임대료 추적",
+    "whiteLabel": "화이트 라벨",
+    "content": "콘텐츠",
+    "implementationCenter": "구현 센터",
+    "pitchDeck": "프레젠테이션",
+    "management": "관리",
+    "communications": "커뮤니케이션",
+    "administration": "행정",
+    "system": "시스템",
+    "business": "비즈니스",
+    "landlordPro": "집주인 Pro"
+  },
+  "landlordDashboard": {
+    "title": "집주인 대시보드",
+    "welcome": "환영합니다, {name}님",
+    "subtitle": "부동산 포트폴리오를 관리하세요",
+    "tabs": {
+      "overview": "개요",
+      "properties": "부동산",
+      "tenants": "세입자",
+      "payments": "결제",
+      "maintenance": "유지보수",
+      "documents": "문서",
+      "reports": "보고서",
+      "settings": "설정"
+    },
+    "metrics": {
+      "totalProperties": "총 부동산",
+      "occupiedUnits": "입주 유닛",
+      "vacantUnits": "공실 유닛",
+      "monthlyRevenue": "월 수익",
+      "pendingPayments": "미결제 금액",
+      "maintenanceRequests": "유지보수 요청",
+      "occupancyRate": "입주율"
+    },
+    "properties": {
+      "title": "내 부동산",
+      "addProperty": "부동산 추가",
+      "editProperty": "부동산 편집",
+      "deleteProperty": "부동산 삭제",
+      "viewDetails": "상세 보기",
+      "noProperties": "등록된 부동산이 없습니다",
+      "addFirstProperty": "첫 번째 부동산을 추가하세요"
+    },
+    "tenants": {
+      "title": "세입자",
+      "inviteTenant": "세입자 초대",
+      "viewProfile": "프로필 보기",
+      "activeTenants": "활성 세입자",
+      "pendingInvites": "대기 중인 초대"
+    },
+    "actions": {
+      "collectRent": "임대료 수금",
+      "sendReminder": "알림 보내기",
+      "generateReport": "보고서 생성",
+      "exportData": "데이터 내보내기"
+    }
+  },
+  "tenantDashboard": {
+    "title": "세입자 대시보드",
+    "welcome": "환영합니다, {name}님",
+    "subtitle": "임대 관리를 한 곳에서",
+    "tabs": {
+      "overview": "개요",
+      "payments": "결제",
+      "maintenance": "유지보수",
+      "documents": "문서",
+      "messages": "메시지",
+      "settings": "설정"
+    },
+    "cards": {
+      "nextPayment": "다음 결제",
+      "leaseExpiry": "계약 만료",
+      "maintenanceStatus": "유지보수 현황",
+      "announcements": "공지사항"
+    },
+    "payments": {
+      "title": "결제",
+      "payRent": "임대료 결제",
+      "paymentHistory": "결제 내역",
+      "upcomingPayments": "예정된 결제",
+      "autopay": "자동 결제",
+      "setupAutopay": "자동 결제 설정"
+    },
+    "maintenance": {
+      "title": "유지보수",
+      "newRequest": "새 요청",
+      "activeRequests": "진행 중인 요청",
+      "completedRequests": "완료된 요청",
+      "trackStatus": "상태 추적"
+    },
+    "actions": {
+      "payNow": "지금 결제",
+      "viewLease": "계약서 보기",
+      "contactLandlord": "집주인 연락",
+      "reportIssue": "문제 신고"
+    }
+  },
+  "dashboard": {
+    "welcome": "다시 오셨군요",
+    "overview": "개요",
+    "totalRevenue": "총 수익",
+    "activeLeases": "활성 임대",
+    "occupancyRate": "입주율",
+    "pendingPayments": "미결제 항목",
+    "recentActivity": "최근 활동",
+    "quickActions": "빠른 작업",
+    "viewAll": "전체 보기",
+    "portfolio": "포트폴리오",
+    "analytics": "분석",
+    "netWorth": "순자산",
+    "cashFlow": "현금흐름",
+    "income": "수입",
+    "expenses": "지출"
+  },
+  "settings": {
+    "title": "설정",
+    "tabs": {
+      "profile": "프로필",
+      "account": "계정",
+      "notifications": "알림",
+      "security": "보안",
+      "preferences": "환경설정",
+      "billing": "결제",
+      "payment": "결제 수단"
+    },
+    "profile": {
+      "title": "프로필 설정",
+      "description": "개인 정보와 프로필을 관리하세요",
+      "avatar": "프로필 사진",
+      "changeAvatar": "사진 변경",
+      "personalInfo": "개인 정보",
+      "saveChanges": "변경사항 저장"
+    },
+    "account": {
+      "title": "계정 설정",
+      "description": "계정 세부 정보와 환경설정을 관리하세요",
+      "email": "이메일 주소",
+      "changeEmail": "이메일 변경",
+      "deleteAccount": "계정 삭제",
+      "deleteWarning": "이 작업은 되돌릴 수 없습니다"
+    },
+    "notifications": {
+      "title": "알림 설정",
+      "description": "알림 수신 방법을 설정하세요",
+      "email": "이메일 알림",
+      "push": "푸시 알림",
+      "sms": "SMS 알림",
+      "frequency": "알림 빈도"
+    },
+    "security": {
+      "title": "보안 설정",
+      "description": "계정 보안을 관리하세요",
+      "changePassword": "비밀번호 변경",
+      "twoFactor": "2단계 인증",
+      "sessions": "활성 세션",
+      "loginHistory": "로그인 기록"
+    },
+    "preferences": {
+      "title": "환경설정",
+      "description": "앱 경험을 개인화하세요",
+      "language": "언어",
+      "currency": "통화",
+      "timezone": "시간대",
+      "theme": "테마",
+      "darkMode": "다크 모드"
+    },
+    "payment": {
+      "title": "결제 설정",
+      "description": "결제 수단과 청구 정보를 관리하세요",
+      "methods": "결제 수단",
+      "addMethod": "결제 수단 추가",
+      "defaultMethod": "기본 결제 수단",
+      "billingHistory": "청구 내역"
+    },
+    "language": "언어",
+    "currency": "통화",
+    "theme": "테마",
+    "light": "라이트",
+    "dark": "다크",
+    "system": "시스템",
+    "changePassword": "비밀번호 변경",
+    "twoFactor": "이중 인증"
+  },
+  "properties": {
+    "title": "부동산",
+    "addProperty": "부동산 추가",
+    "propertyName": "부동산 이름",
+    "address": "주소",
+    "city": "도시",
+    "state": "시/도",
+    "zipCode": "우편번호",
+    "bedrooms": "침실",
+    "bathrooms": "욕실",
+    "squareFeet": "평방미터",
+    "monthlyRent": "월세",
+    "status": "상태",
+    "available": "공실",
+    "occupied": "입주중",
+    "maintenance": "유지보수",
+    "type": "유형",
+    "apartment": "아파트",
+    "house": "주택",
+    "condo": "콘도",
+    "townhouse": "타운하우스",
+    "units": "유닛",
+    "amenities": "편의시설",
+    "description": "설명",
+    "photos": "사진",
+    "searchPlaceholder": "부동산 검색...",
+    "filters": {
+      "all": "전체",
+      "occupied": "입주 중",
+      "vacant": "공실",
+      "maintenance": "유지보수 중"
+    },
+    "details": {
+      "address": "주소",
+      "units": "유닛",
+      "tenants": "세입자",
+      "monthlyRent": "월 임대료",
+      "status": "상태"
+    }
+  },
+  "tenants": {
+    "title": "임차인",
+    "addTenant": "임차인 추가",
+    "name": "이름",
+    "email": "이메일",
+    "phone": "전화",
+    "leaseStart": "임대 시작일",
+    "leaseEnd": "임대 종료일",
+    "rentAmount": "임대료",
+    "status": "상태",
+    "active": "활성",
+    "pending": "대기중",
+    "inactive": "비활성",
+    "documents": "문서",
+    "paymentHistory": "결제 내역"
+  },
+  "payments": {
+    "title": "결제",
+    "rentDue": "납부 예정 임대료",
+    "payNow": "지금 결제",
+    "paymentHistory": "결제 내역",
+    "amount": "금액",
+    "dueDate": "납부일",
+    "status": {
+      "pending": "대기 중",
+      "completed": "완료",
+      "paid": "결제완료",
+      "failed": "실패",
+      "refunded": "환불됨",
+      "overdue": "연체"
+    },
+    "paymentMethod": "결제 방법",
+    "card": "카드",
+    "bankAccount": "은행 계좌",
+    "autopay": "자동 결제",
+    "setupAutopay": "자동 결제 설정",
+    "oneTimePayment": "일회성 결제",
+    "processingFee": "처리 수수료",
+    "total": "합계",
+    "confirmPayment": "결제 확인",
+    "paymentSuccessful": "결제 성공",
+    "paymentFailed": "결제 실패",
+    "methods": {
+      "card": "카드",
+      "bank": "계좌이체",
+      "cash": "현금"
+    },
+    "details": {
+      "amount": "금액",
+      "date": "날짜",
+      "method": "결제 수단",
+      "status": "상태",
+      "receipt": "영수증"
+    }
+  },
+  "maintenance": {
+    "title": "유지보수",
+    "submitRequest": "요청 제출",
+    "newRequest": "새 요청",
+    "requestType": "요청 유형",
+    "priority": {
+      "low": "낮음",
+      "medium": "보통",
+      "high": "높음",
+      "urgent": "긴급"
+    },
+    "description": "설명",
+    "status": {
+      "pending": "대기 중",
+      "open": "열림",
+      "inProgress": "진행 중",
+      "completed": "완료",
+      "cancelled": "취소됨"
+    },
+    "emergency": "긴급",
+    "form": {
+      "title": "제목",
+      "description": "설명",
+      "category": "카테고리",
+      "priority": "우선순위",
+      "photos": "사진",
+      "submit": "요청 제출"
+    }
+  },
+  "messages": {
+    "title": "메시지",
+    "newMessage": "새 메시지",
+    "to": "받는 사람",
+    "subject": "제목",
+    "message": "메시지",
+    "send": "보내기",
+    "inbox": "받은편지함",
+    "sent": "보낸편지함",
+    "archived": "보관함",
+    "noMessages": "메시지가 없습니다",
+    "compose": "작성"
+  },
+  "documents": {
+    "title": "문서",
+    "upload": "문서 업로드",
+    "download": "다운로드",
+    "categories": {
+      "lease": "임대 계약서",
+      "receipt": "영수증",
+      "notice": "공지",
+      "other": "기타"
+    }
+  },
+  "errors": {
+    "generic": "오류가 발생했습니다",
+    "notFound": "페이지를 찾을 수 없습니다",
+    "unauthorized": "접근 권한이 없습니다",
+    "networkError": "네트워크 오류가 발생했습니다",
+    "validationError": "입력 정보를 확인해주세요",
+    "serverError": "서버 오류가 발생했습니다",
+    "tryAgain": "다시 시도해주세요",
+    "somethingWentWrong": "문제가 발생했습니다",
+    "pageNotFound": "페이지를 찾을 수 없습니다",
+    "forbidden": "접근이 금지되었습니다",
+    "tryAgainLater": "나중에 다시 시도해주세요"
+  },
+  "validation": {
+    "required": "이 필드는 필수입니다",
+    "email": "유효한 이메일 주소를 입력하세요",
+    "minLength": "최소 {min}자 이상이어야 합니다",
+    "maxLength": "최대 {max}자까지 입력 가능합니다",
+    "passwordMatch": "비밀번호가 일치하지 않습니다",
+    "invalidFormat": "형식이 올바르지 않습니다"
+  }
+}

@@ -1,0 +1,1 @@
+UPDATE tenant_profiles SET voucher_holder = true WHERE voucher_status = 'yes' AND (voucher_holder = false OR voucher_holder IS NULL);

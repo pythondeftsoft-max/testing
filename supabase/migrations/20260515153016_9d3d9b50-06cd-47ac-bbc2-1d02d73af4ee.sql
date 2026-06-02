@@ -1,0 +1,1 @@
+ALTER TABLE public.property_units ADD COLUMN IF NOT EXISTS placement_fee_percent_override numeric;

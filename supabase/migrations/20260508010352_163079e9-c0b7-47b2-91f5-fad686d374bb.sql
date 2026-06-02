@@ -1,0 +1,2 @@
+ALTER TABLE public.white_label_configs ADD COLUMN IF NOT EXISTS agency_id uuid REFERENCES public.housing_authorities(id) ON DELETE SET NULL;
+CREATE INDEX IF NOT EXISTS idx_white_label_configs_agency_id ON public.white_label_configs(agency_id);

@@ -1,0 +1,66 @@
+
+-- First, let's create a test property with a valid owner_id from existing profiles
+INSERT INTO properties (
+  owner_id, 
+  address, 
+  street_address,
+  city,
+  state,
+  zipcode,
+  bedrooms, 
+  bathrooms, 
+  monthly_rent, 
+  desired_rent,
+  status,
+  amenities,
+  photos,
+  description
+) VALUES 
+  (
+    (SELECT id FROM profiles LIMIT 1),
+    '123 Oak Street, Chicago, IL 60601',
+    '123 Oak Street',
+    'Chicago',
+    'IL', 
+    '60601',
+    2,
+    1.5,
+    1200.00,
+    1100.00,
+    'available',
+    ARRAY['parking', 'laundry', 'air conditioning'],
+    ARRAY['https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'],
+    'Beautiful 2-bedroom apartment in downtown Chicago'
+  ),
+  (
+    (SELECT id FROM profiles LIMIT 1),
+    '456 Maple Ave, Springfield, IL 62701',
+    '456 Maple Ave',
+    'Springfield',
+    'IL',
+    '62701', 
+    3,
+    2.0,
+    1500.00,
+    1400.00,
+    'available',
+    ARRAY['garage', 'dishwasher', 'hardwood floors'],
+    ARRAY['https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'],
+    'Spacious 3-bedroom house with modern amenities'
+  ),
+  (
+    (SELECT id FROM profiles LIMIT 1),
+    '789 Pine Court, Rockford, IL 61101',
+    '789 Pine Court', 
+    'Rockford',
+    'IL',
+    '61101',
+    1,
+    1.0,
+    800.00,
+    750.00,
+    'available',
+    ARRAY['pets allowed', 'balcony'],
+    ARRAY['https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'],
+    'Cozy 1-bedroom apartment perfect for singles'
+  );

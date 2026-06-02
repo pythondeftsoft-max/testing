@@ -1,0 +1,2 @@
+ALTER TABLE public.properties DROP CONSTRAINT IF EXISTS properties_tenant_type_check;
+ALTER TABLE public.properties ADD CONSTRAINT properties_tenant_type_check CHECK (default_tenant_type IN ('voucher', 'market_rate', 'not_specified'));

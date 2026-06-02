@@ -1,0 +1,481 @@
+{
+  "nav": {
+    "features": "Funktionen",
+    "pricing": "Preise",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "login": "Anmelden",
+    "signup": "Registrieren",
+    "dashboard": "Dashboard",
+    "logout": "Abmelden",
+    "blog": "Blog"
+  },
+  "hero": {
+    "title": "Immobilienverwaltung leicht gemacht",
+    "subtitle": "Die Plattform, die Vermieter und Mieter verbindet.",
+    "cta": "Jetzt starten",
+    "imageAlt": "Modernes Gebäude"
+  },
+  "features": {
+    "title": "Leistungsstarke Funktionen für modernes Immobilienmanagement",
+    "subtitle": "Alles was Sie brauchen, um Ihre Immobilien effizient zu verwalten und ein nahtloses Mieterlebnis zu bieten.",
+    "whyOpenKey": "Warum OpenKey",
+    "fastOnboarding": "Schnelles Onboarding",
+    "fastOnboardingDesc": "Starten Sie in Minuten mit geführten Schritten.",
+    "trustSafety": "Vertrauen & Sicherheit",
+    "trustSafetyDesc": "Verifizierte Gutscheine, Vermieter und Dokumente.",
+    "smartInsights": "Intelligente Einblicke",
+    "smartInsightsDesc": "Dashboards zur Verfolgung von Belegung und Bewerbungen.",
+    "builtInMessaging": "Integrierte Nachrichten",
+    "builtInMessagingDesc": "Gespräche und Dokumente an einem Ort.",
+    "neighborhoodView": "Nachbarschaftsansicht",
+    "neighborhoodViewDesc": "Sehen Sie Nähe zu ÖPNV, Schulen und mehr.",
+    "paymentsReady": "Zahlungsbereit",
+    "paymentsReadyDesc": "Optimierte Mieteinzugs-Integrationen.",
+    "feature1": {
+      "title": "Portfolio-Dashboard",
+      "description": "Umfassender Überblick über alle Ihre Immobilien mit Echtzeit-Metriken und Leistungsindikatoren an einem Ort."
+    },
+    "feature2": {
+      "title": "Mieterportal",
+      "description": "Self-Service-Portal für Mieter zur Verwaltung von Zahlungen, Wartungsanfragen und Kommunikation mit Vermietern."
+    },
+    "feature3": {
+      "title": "Wartungsmanagement",
+      "description": "Optimierte Verfolgung von Wartungsanfragen vom Eingang bis zur Erledigung mit automatisierten Benachrichtigungen."
+    },
+    "feature4": {
+      "title": "Finanzberichte",
+      "description": "Detaillierte Finanzberichte und Analysen zur Verfolgung von Einnahmen, Ausgaben und Rentabilität."
+    },
+    "feature5": {
+      "title": "Dokumentenspeicher",
+      "description": "Sichere Cloud-Speicherung für Mietverträge, Dokumente und wichtige Dateien mit einfachem Zugriff."
+    },
+    "feature6": {
+      "title": "Automatisierte Kommunikation",
+      "description": "Automatisierte Zahlungserinnerungen, Mietbenachrichtigungen und Kommunikationstools zur Zeitersparnis."
+    }
+  },
+  "cta": {
+    "title": "Bereit, Ihr Immobilienmanagement zu transformieren?",
+    "subtitle": "Schließen Sie sich Tausenden von Immobilienverwaltern an, die bereits unsere Plattform nutzen, um ihre Abläufe zu optimieren.",
+    "button": "Kostenlos starten",
+    "note": "Keine Kreditkarte erforderlich • 14-tägige kostenlose Testversion"
+  },
+  "howItWorks": {
+    "title": "So funktioniert OpenKey",
+    "subtitle": "Ein klarer Weg für Mieter und Vermieter",
+    "forTenants": "Für Mieter",
+    "forLandlords": "Für Vermieter",
+    "tenant": {
+      "step1Title": "Teilen Sie uns Ihre Bedürfnisse mit",
+      "step1Desc": "Gutschein, Budget, Standort, Schlafzimmer",
+      "step2Title": "Passende Angebote erhalten",
+      "step2Desc": "Section 8-freundliche Wohnungen sofort sehen",
+      "step3Title": "Bewerben & einziehen",
+      "step3Desc": "Begleitung bei jedem Schritt"
+    },
+    "landlord": {
+      "step1Title": "Ihre Wohnung inserieren",
+      "step1Desc": "Schöne Inserate in Minuten",
+      "step2Title": "Qualifizierte Mieter",
+      "step2Desc": "Vorgeprüft, Gutschein verifiziert",
+      "step3Title": "Schneller vermieten",
+      "step3Desc": "Leerstand mit Vertrauen reduzieren"
+    }
+  },
+  "testimonials": {
+    "title": "Was unsere Nutzer sagen",
+    "subtitle": "Vertrauen von Tausenden von Immobilienverwaltern und Mietern weltweit.",
+    "testimonial1": {
+      "quote": "Diese Plattform hat die Art, wie ich meine Immobilien verwalte, revolutioniert. Die Automatisierungsfunktionen sparen mir jede Woche Stunden.",
+      "author": "Sarah Chen",
+      "role": "Immobilienmanagerin, 45+ Einheiten"
+    },
+    "testimonial2": {
+      "quote": "Als Mieter schätze ich, wie einfach es ist, Miete zu bezahlen und Wartungsprobleme zu melden. Alles ist nur einen Klick entfernt.",
+      "author": "Michael Rodriguez",
+      "role": "Mieter seit 2023"
+    },
+    "testimonial3": {
+      "quote": "Die Finanzberichtsfunktionen sind unschlagbar. Ich habe endlich klare Einblicke in die Leistung meines Portfolios.",
+      "author": "Emily Watson",
+      "role": "Immobilieninvestorin"
+    }
+  },
+  "stats": {
+    "properties": "Verwaltete Immobilien",
+    "transactions": "Verarbeitete Transaktionen",
+    "users": "Aktive Nutzer",
+    "satisfaction": "Kundenzufriedenheit"
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Finden Sie Antworten auf häufige Fragen zu unserer Immobilienverwaltungsplattform.",
+    "tenant": {
+      "title": "Für Mieter",
+      "q1": {
+        "question": "Wie bezahle ich meine Miete online?",
+        "answer": "Melden Sie sich in Ihrem Mieterportal an, gehen Sie zum Bereich Zahlungen und klicken Sie auf 'Miete bezahlen'. Sie können per Banküberweisung, Kreditkarte oder Lastschrift bezahlen."
+      },
+      "q2": {
+        "question": "Wie reiche ich eine Wartungsanfrage ein?",
+        "answer": "Navigieren Sie in Ihrem Dashboard zum Bereich 'Wartung' und klicken Sie auf 'Neue Anfrage'. Beschreiben Sie das Problem, fügen Sie Fotos hinzu und reichen Sie es ein. Ihr Vermieter wird benachrichtigt."
+      },
+      "q3": {
+        "question": "Kann ich automatische Mietzahlungen einrichten?",
+        "answer": "Ja! Gehen Sie zu Zahlungseinstellungen und aktivieren Sie Autopay. Sie können wählen, ob Sie per Banküberweisung oder Karte zahlen möchten, und das Geld wird automatisch zu Ihrem Fälligkeitsdatum abgebucht."
+      },
+      "q4": {
+        "question": "Wie kontaktiere ich meinen Vermieter?",
+        "answer": "Nutzen Sie die Nachrichten-Funktion in Ihrem Dashboard, um direkt mit Ihrem Vermieter zu kommunizieren. Alle Gespräche werden für Ihre Unterlagen gespeichert."
+      }
+    },
+    "landlord": {
+      "title": "Für Vermieter",
+      "q1": {
+        "question": "Wie füge ich eine neue Immobilie hinzu?",
+        "answer": "Gehen Sie in Ihrem Dashboard zu 'Immobilien' und klicken Sie auf 'Immobilie hinzufügen'. Geben Sie die Immobiliendetails, Mietbedingungen ein und laden Sie alle vorhandenen Mieter ein."
+      },
+      "q2": {
+        "question": "Was sind die Zahlungsabwicklungsgebühren?",
+        "answer": "Unsere Standardgebühren betragen 2,9% + 0,30€ für Kartenzahlungen. Banküberweisung (ACH) beträgt 0,8% mit einer Obergrenze von 5€ pro Transaktion. Unternehmenskunden erhalten ermäßigte Tarife."
+      },
+      "q3": {
+        "question": "Kann ich Zahlungserinnerungen anpassen?",
+        "answer": "Ja, Sie können benutzerdefinierte Erinnerungszeitpläne für jeden Mieter einrichten. Konfigurieren Sie E-Mail- und SMS-Benachrichtigungen für Fälligkeitserinnerungen und Nachfassaktionen."
+      },
+      "q4": {
+        "question": "Wie gehe ich mit verspäteten Zahlungen um?",
+        "answer": "Das System wendet automatisch Säumnisgebühren gemäß Ihren konfigurierten Regeln an. Sie können auch automatisierte Zahlungserinnerungen und Inkassoprozesse einrichten."
+      }
+    },
+    "manager": {
+      "title": "Für Immobilienverwalter",
+      "q1": {
+        "question": "Kann ich mehrere Vermieter verwalten?",
+        "answer": "Ja, unser Unternehmensplan ermöglicht es Ihnen, mehrere Vermieterkonten von einem einzigen Dashboard aus zu verwalten. Jeder Vermieter erhält sein eigenes isoliertes Portfolio."
+      },
+      "q2": {
+        "question": "Welche Berichte sind verfügbar?",
+        "answer": "Wir bieten umfassende Berichte einschließlich Gewinn- und Verlustrechnungen, Belegungsraten, Wartungsanalysen und individuelle Berichte nach Portfolio oder Immobilie."
+      },
+      "q3": {
+        "question": "Wie weise ich meinem Team Berechtigungen zu?",
+        "answer": "Gehen Sie zu Einstellungen > Team und laden Sie Teammitglieder mit bestimmten Rollen ein. Sie können den Zugang auf Immobilien-, Portfolio- oder Organisationsebene anpassen."
+      }
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Haben Sie Fragen? Wir freuen uns, von Ihnen zu hören.",
+    "form": {
+      "name": "Ihr Name",
+      "namePlaceholder": "Max Mustermann",
+      "email": "E-Mail-Adresse",
+      "emailPlaceholder": "max@beispiel.de",
+      "subject": "Betreff",
+      "subjectPlaceholder": "Wie können wir Ihnen helfen?",
+      "message": "Nachricht",
+      "messagePlaceholder": "Erzählen Sie uns mehr über Ihre Anfrage...",
+      "submit": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "success": "Nachricht erfolgreich gesendet!",
+      "successDescription": "Wir werden uns bald bei Ihnen melden.",
+      "error": "Nachricht konnte nicht gesendet werden",
+      "errorDescription": "Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt."
+    },
+    "info": {
+      "title": "Kontaktinformationen",
+      "email": "support@immobilie.de",
+      "phone": "+49 30 123 456 78",
+      "address": "Immobilienstraße 123, 10115 Berlin, Deutschland",
+      "hours": "Mo-Fr: 9:00 - 18:00 Uhr MEZ"
+    }
+  },
+  "footer": {
+    "description": "Modernes Immobilienmanagement für Vermieter und Mieter.",
+    "product": {
+      "title": "Produkt",
+      "features": "Funktionen",
+      "pricing": "Preise",
+      "integrations": "Integrationen",
+      "updates": "Neuigkeiten"
+    },
+    "company": {
+      "title": "Unternehmen",
+      "about": "Über uns",
+      "blog": "Blog",
+      "careers": "Karriere",
+      "press": "Presse"
+    },
+    "resources": {
+      "title": "Ressourcen",
+      "documentation": "Dokumentation",
+      "helpCenter": "Hilfecenter",
+      "guides": "Anleitungen",
+      "api": "API-Referenz"
+    },
+    "legal": {
+      "title": "Rechtliches",
+      "privacy": "Datenschutz",
+      "terms": "AGB",
+      "cookies": "Cookies",
+      "licenses": "Lizenzen"
+    },
+    "copyright": "© 2024 OpenKey. Alle Rechte vorbehalten."
+  },
+  "common": {
+    "loading": "Wird geladen...",
+    "error": "Ein Fehler ist aufgetreten",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "view": "Ansehen",
+    "search": "Suchen",
+    "filter": "Filtern",
+    "sort": "Sortieren",
+    "next": "Weiter",
+    "previous": "Zurück",
+    "submit": "Absenden",
+    "confirm": "Bestätigen",
+    "close": "Schließen",
+    "yes": "Ja",
+    "no": "Nein",
+    "or": "oder",
+    "and": "und",
+    "all": "Alle",
+    "none": "Keine",
+    "selectLanguage": "Sprache wählen",
+    "selectCurrency": "Währung wählen"
+  },
+  "auth": {
+    "login": "Anmelden",
+    "signup": "Registrieren",
+    "logout": "Abmelden",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "confirmPassword": "Passwort bestätigen",
+    "forgotPassword": "Passwort vergessen?",
+    "resetPassword": "Passwort zurücksetzen",
+    "rememberMe": "Angemeldet bleiben",
+    "noAccount": "Noch kein Konto?",
+    "hasAccount": "Bereits ein Konto?",
+    "createAccount": "Konto erstellen",
+    "loginSuccess": "Erfolgreich angemeldet!",
+    "logoutSuccess": "Erfolgreich abgemeldet",
+    "signupSuccess": "Konto erfolgreich erstellt!",
+    "invalidCredentials": "Ungültige E-Mail oder Passwort",
+    "emailRequired": "E-Mail ist erforderlich",
+    "passwordRequired": "Passwort ist erforderlich",
+    "passwordMismatch": "Passwörter stimmen nicht überein"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "tabs": {
+      "general": "Allgemein",
+      "notifications": "Benachrichtigungen",
+      "security": "Sicherheit",
+      "billing": "Abrechnung",
+      "team": "Team",
+      "integrations": "Integrationen",
+      "preferences": "Präferenzen",
+      "account": "Konto",
+      "privacy": "Datenschutz",
+      "language": "Sprache & Region"
+    },
+    "general": {
+      "title": "Allgemeine Einstellungen",
+      "description": "Verwalten Sie Ihre grundlegenden Kontoeinstellungen und Präferenzen."
+    },
+    "notifications": {
+      "title": "Benachrichtigungseinstellungen",
+      "description": "Wählen Sie, wie und wann Sie Updates erhalten möchten.",
+      "email": "E-Mail-Benachrichtigungen",
+      "push": "Push-Benachrichtigungen",
+      "sms": "SMS-Benachrichtigungen",
+      "paymentReminders": "Zahlungserinnerungen",
+      "maintenanceUpdates": "Wartungsupdates",
+      "leaseAlerts": "Mietvertragsbenachrichtigungen"
+    },
+    "security": {
+      "title": "Sicherheitseinstellungen",
+      "description": "Schützen Sie Ihr Konto mit erweiterten Sicherheitsoptionen.",
+      "changePassword": "Passwort ändern",
+      "twoFactor": "Zwei-Faktor-Authentifizierung",
+      "activeSessions": "Aktive Sitzungen",
+      "loginHistory": "Anmeldeverlauf"
+    },
+    "billing": {
+      "title": "Abrechnung & Zahlungen",
+      "description": "Verwalten Sie Ihre Abrechnungsinformationen und sehen Sie den Zahlungsverlauf ein.",
+      "currentPlan": "Aktueller Plan",
+      "paymentMethod": "Zahlungsmethode",
+      "billingHistory": "Abrechnungsverlauf",
+      "upgrade": "Plan upgraden"
+    },
+    "language": {
+      "title": "Sprache & Region",
+      "description": "Legen Sie Ihre bevorzugte Sprache und regionale Einstellungen fest.",
+      "selectLanguage": "Sprache wählen",
+      "selectCurrency": "Währung wählen",
+      "timezone": "Zeitzone",
+      "dateFormat": "Datumsformat"
+    },
+    "save": "Änderungen speichern",
+    "saved": "Einstellungen gespeichert!",
+    "saveError": "Einstellungen konnten nicht gespeichert werden"
+  },
+  "landlordDashboard": {
+    "title": "Vermieter-Dashboard",
+    "welcome": "Willkommen zurück",
+    "tabs": {
+      "overview": "Übersicht",
+      "properties": "Immobilien",
+      "tenants": "Mieter",
+      "maintenance": "Wartung",
+      "payments": "Zahlungen",
+      "reports": "Berichte",
+      "documents": "Dokumente",
+      "settings": "Einstellungen"
+    },
+    "metrics": {
+      "totalProperties": "Immobilien gesamt",
+      "occupiedUnits": "Belegte Einheiten",
+      "vacantUnits": "Freie Einheiten",
+      "totalRevenue": "Gesamteinnahmen",
+      "pendingPayments": "Ausstehende Zahlungen",
+      "maintenanceRequests": "Wartungsanfragen",
+      "occupancyRate": "Belegungsrate",
+      "collectionRate": "Einzugsrate"
+    },
+    "actions": {
+      "addProperty": "Immobilie hinzufügen",
+      "inviteTenant": "Mieter einladen",
+      "createLease": "Mietvertrag erstellen",
+      "sendReminder": "Erinnerung senden",
+      "generateReport": "Bericht erstellen",
+      "exportData": "Daten exportieren"
+    },
+    "properties": {
+      "title": "Meine Immobilien",
+      "addNew": "Neue Immobilie hinzufügen",
+      "viewAll": "Alle anzeigen",
+      "units": "Einheiten",
+      "occupied": "Belegt",
+      "vacant": "Frei",
+      "monthlyRent": "Monatsmiete"
+    },
+    "tenants": {
+      "title": "Aktuelle Mieter",
+      "addNew": "Mieter hinzufügen",
+      "viewProfile": "Profil anzeigen",
+      "leaseEnd": "Mietende",
+      "paymentStatus": "Zahlungsstatus",
+      "current": "Aktuell",
+      "late": "Überfällig",
+      "pending": "Ausstehend"
+    },
+    "maintenance": {
+      "title": "Wartungsanfragen",
+      "new": "Neue Anfragen",
+      "inProgress": "In Bearbeitung",
+      "completed": "Erledigt",
+      "priority": {
+        "low": "Niedrig",
+        "medium": "Mittel",
+        "high": "Hoch",
+        "urgent": "Dringend"
+      }
+    },
+    "payments": {
+      "title": "Zahlungsübersicht",
+      "received": "Erhalten",
+      "pending": "Ausstehend",
+      "overdue": "Überfällig",
+      "thisMonth": "Diesen Monat",
+      "lastMonth": "Letzten Monat",
+      "viewHistory": "Verlauf anzeigen"
+    }
+  },
+  "tenantDashboard": {
+    "title": "Mieter-Dashboard",
+    "welcome": "Willkommen zurück",
+    "tabs": {
+      "overview": "Übersicht",
+      "payments": "Zahlungen",
+      "maintenance": "Wartung",
+      "documents": "Dokumente",
+      "messages": "Nachrichten",
+      "settings": "Einstellungen"
+    },
+    "cards": {
+      "nextPayment": "Nächste Zahlung",
+      "leaseInfo": "Mietvertragsinformationen",
+      "maintenanceStatus": "Wartungsstatus",
+      "quickActions": "Schnellaktionen"
+    },
+    "payment": {
+      "dueDate": "Fälligkeitsdatum",
+      "amount": "Betrag",
+      "payNow": "Jetzt bezahlen",
+      "setupAutopay": "Autopay einrichten",
+      "viewHistory": "Verlauf anzeigen",
+      "status": {
+        "paid": "Bezahlt",
+        "pending": "Ausstehend",
+        "overdue": "Überfällig"
+      }
+    },
+    "lease": {
+      "property": "Immobilie",
+      "unit": "Einheit",
+      "startDate": "Beginn",
+      "endDate": "Ende",
+      "monthlyRent": "Monatsmiete",
+      "renewalStatus": "Verlängerungsstatus",
+      "viewLease": "Mietvertrag ansehen",
+      "downloadLease": "Mietvertrag herunterladen"
+    },
+    "maintenance": {
+      "submitRequest": "Anfrage einreichen",
+      "viewRequests": "Anfragen anzeigen",
+      "openRequests": "Offene Anfragen",
+      "recentActivity": "Letzte Aktivität"
+    },
+    "actions": {
+      "payRent": "Miete bezahlen",
+      "requestMaintenance": "Wartung anfordern",
+      "contactLandlord": "Vermieter kontaktieren",
+      "viewDocuments": "Dokumente anzeigen",
+      "updateProfile": "Profil aktualisieren"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Modernes Immobilienmanagement",
+      "subtitle": "Optimieren Sie Ihre Mietverwaltung mit unserer All-in-One-Plattform für Vermieter und Mieter.",
+      "cta": {
+        "primary": "Kostenlos starten",
+        "secondary": "Demo ansehen"
+      }
+    },
+    "points": {
+      "point1": "Einfaches Immobilienmanagement",
+      "point2": "Automatisierter Mieteinzug",
+      "point3": "Echtzeit-Kommunikation",
+      "point4": "Umfassende Berichte"
+    },
+    "portfolio": {
+      "title": "Verwalten Sie Ihr gesamtes Portfolio",
+      "description": "Von Einzeleinheiten bis zu großen Portfolios - unsere Plattform skaliert mit Ihren Anforderungen."
+    },
+    "newsletter": {
+      "title": "Bleiben Sie informiert",
+      "placeholder": "Ihre E-Mail-Adresse",
+      "button": "Abonnieren"
+    }
+  }
+}

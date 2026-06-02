@@ -1,0 +1,69 @@
+-- Drop and recreate the landlord_deny_application function to support both tables
+DROP FUNCTION IF EXISTS landlord_deny_application(UUID);
+
+CREATE OR REPLACE FUNCTION landlord_deny_application(
+  p_application_id UUID
+)
+RETURNS JSON
+LANGUAGE plpgsql
+SECURITY DEFINER
+SET search_path = public
+AS $$
+DECLARE
+  v_application RECORD;
+  v_landlord_id UUID;
+  v_table_name TEXT;
+BEGIN
+  v_landlord_id := auth.uid();
+  
+  -- First try marketplace_applications
+  SELECT ma.*, p.owner_id, 'marketplace_applications' as source_table
+  INTO v_application
+  FROM marketplace_applications ma
+  JOIN properties p ON ma.property_id = p.id
+  WHERE ma.id = p_application_id
+  AND p.owner_id = v_landlord_id;
+  
+  IF v_application IS NOT NULL THEN
+    v_table_name := 'marketplace_applications';
+  ELSE
+    -- Try property_applications
+    SELECT pa.*, p.owner_id, 'property_applications' as source_table
+    INTO v_application
+    FROM property_applications pa
+    JOIN properties p ON pa.property_id = p.id
+    WHERE pa.id = p_application_id
+    AND p.owner_id = v_landlord_id;
+    
+    IF v_application IS NOT NULL THEN
+      v_table_name := 'property_applications';
+    END IF;
+  END IF;
+  
+  IF v_application IS NULL THEN
+    RETURN json_build_object(
+      'success', false,
+      'error', 'Application not found or you do not own this property'
+    );
+  END IF;
+  
+  -- Update the correct table
+  IF v_table_name = 'marketplace_applications' THEN
+    UPDATE marketplace_applications
+    SET status = 'withdrawn', updated_at = now()
+    WHERE id = p_application_id;
+  ELSE
+    UPDATE property_applications
+    SET status = 'withdrawn', status_updated_at = now()
+    WHERE id = p_application_id;
+  END IF;
+  
+  RETURN json_build_object(
+    'success', true,
+    'application_id', p_application_id,
+    'tenant_id', v_application.tenant_id,
+    'property_id', v_application.property_id,
+    'source_table', v_table_name
+  );
+END;
+$$;

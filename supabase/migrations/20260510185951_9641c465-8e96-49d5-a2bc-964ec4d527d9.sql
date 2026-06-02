@@ -1,0 +1,1 @@
+GRANT SELECT ON public.housing_authorities TO anon, authenticated;

@@ -1,0 +1,1 @@
+DELETE FROM system_maintenance WHERE id = 'b2f2f5dd-9d35-4e2f-855a-eb4ee0198ea4';

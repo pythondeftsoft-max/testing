@@ -1,0 +1,14 @@
+// Export all locale files for easy importing
+export { default as en } from './en.json';
+export { default as es } from './es.json';
+export { default as pt } from './pt.json';
+export { default as fr } from './fr.json';
+export { default as de } from './de.json';
+export { default as it } from './it.json';
+export { default as vi } from './vi.json';
+export { default as zh } from './zh.json';
+export { default as ja } from './ja.json';
+export { default as ko } from './ko.json';
+export { default as hi } from './hi.json';
+export { default as ru } from './ru.json';
+export { default as ar } from './ar.json';

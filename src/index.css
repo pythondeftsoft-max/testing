@@ -1,0 +1,1166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. */
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    /* Navy Blue & Rustic Gold Primary Colors */
+    --primary: 220 100% 25%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 220 100% 25%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 220 100% 25%;
+
+    /* Navy Blue & Rustic Gold Brand Colors */
+    --openkey-blue: 220 100% 25%;
+    --openkey-blue-light: 220 100% 35%;
+    --openkey-blue-dark: 220 100% 15%;
+    --openkey-gold: 45 85% 45%;
+    --openkey-gold-light: 45 85% 55%;
+    --openkey-gold-dark: 45 85% 35%;
+    
+    /* Premium Gradient Colors */
+    --gradient-blue-start: 220 100% 25%;
+    --gradient-blue-end: 220 100% 15%;
+    --gradient-gold-start: 45 85% 45%;
+    --gradient-gold-end: 45 85% 35%;
+    --gradient-blue-gold-start: 220 100% 25%;
+    --gradient-blue-gold-end: 45 85% 45%;
+    
+    /* Enhanced Status Colors with Blue/Gold Variants */
+    --success: 142 71% 45%;
+    --success-foreground: 0 0% 100%;
+    --success-light: 142 71% 55%;
+    --warning: 45 85% 45%;
+    --warning-foreground: 0 0% 100%;
+    --warning-light: 45 85% 55%;
+    --danger: 0 72% 51%;
+    --danger-foreground: 0 0% 100%;
+    --danger-light: 0 72% 61%;
+    --info: 220 100% 25%;
+    --info-foreground: 0 0% 100%;
+    --info-light: 220 100% 35%;
+    --neutral: 210 11% 71%;
+    --neutral-foreground: 0 0% 20%;
+    --neutral-light: 210 11% 81%;
+
+    /* Portfolio Health Status Colors */
+    --health-excellent: 142 71% 45%;
+    --health-excellent-foreground: 0 0% 100%;
+    --health-excellent-glow: 142 71% 45%;
+    --health-good: 220 100% 45%;
+    --health-good-foreground: 0 0% 100%;
+    --health-good-glow: 220 100% 45%;
+    --health-attention: 0 72% 51%;
+    --health-attention-foreground: 0 0% 100%;
+    --health-attention-glow: 0 72% 51%;
+    --health-critical: 0 84% 60%;
+    --health-critical-foreground: 0 0% 100%;
+    --health-critical-glow: 0 84% 60%;
+    --health-needs-attention: 45 85% 45%;
+    --health-needs-attention-foreground: 0 0% 100%;
+    --health-needs-attention-glow: 45 85% 45%;
+    --health-perfect: 142 71% 55%;
+    --health-perfect-foreground: 0 0% 100%;
+    --health-perfect-glow: 142 71% 55%;
+
+    /* Glassmorphism Variables */
+    --glass-bg: 255 255 255;
+    --glass-border: 255 255 255;
+    --glass-shadow: 0 0 0;
+
+    /* Enhanced Component Colors */
+    --card-elevated: 0 0% 100%;
+    --card-hover: 220 100% 98%;
+    --button-primary: 220 100% 25%;
+    --button-primary-hover: 220 100% 20%;
+    --button-secondary: 45 85% 45%;
+    --button-secondary-hover: 45 85% 40%;
+    --input-focus: 220 100% 25%;
+    --table-header: 220 100% 97%;
+    --table-row-hover: 220 100% 98%;
+  }
+
+  .dark {
+    /* Premium Dark Navy Background - matching investor theme */
+    --background: 210 69% 11%;        /* #0a192f - Dark Navy */
+    --foreground: 0 0% 94%;           /* Near white */
+
+    --card: 210 50% 15%;              /* #0f2744 - Slightly lighter navy */
+    --card-foreground: 0 0% 94%;
+    --card-elevated: 210 50% 18%;
+
+    --popover: 210 50% 15%;
+    --popover-foreground: 0 0% 94%;
+
+    --primary: 220 100% 40%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 210 40% 20%;         /* Mid-tone navy */
+    --secondary-foreground: 0 0% 94%;
+
+    --muted: 210 40% 20%;
+    --muted-foreground: 0 0% 60%;     /* 60% opacity white */
+
+    --accent: 210 40% 20%;
+    --accent-foreground: 0 0% 94%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 210 40% 25%;            /* Visible but subtle navy border */
+    --input: 210 40% 20%;
+    --ring: 220 100% 40%;
+
+    /* Sidebar - matching premium dark navy */
+    --sidebar-background: 210 69% 9%; /* Slightly darker than main bg */
+    --sidebar-foreground: 0 0% 94%;
+    --sidebar-primary: 220 100% 40%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 40% 18%;
+    --sidebar-accent-foreground: 0 0% 94%;
+    --sidebar-border: 210 40% 22%;
+    --sidebar-ring: 220 100% 40%;
+
+    /* Dark mode brand colors - Navy Blue & Rustic Gold */
+    --openkey-blue: 220 100% 40%;
+    --openkey-blue-light: 220 100% 50%;
+    --openkey-blue-dark: 220 100% 30%;
+    --openkey-gold: 45 85% 55%;
+    --openkey-gold-light: 45 85% 65%;
+    --openkey-gold-dark: 45 85% 45%;
+    
+    /* Premium Gradient Colors for Dark Mode */
+    --gradient-blue-start: 220 100% 40%;
+    --gradient-blue-end: 220 100% 30%;
+    --gradient-gold-start: 45 85% 55%;
+    --gradient-gold-end: 45 85% 45%;
+    --gradient-blue-gold-start: 220 100% 40%;
+    --gradient-blue-gold-end: 45 85% 55%;
+
+    /* Portfolio Health Status Colors - Dark Mode */
+    --health-excellent: 142 71% 55%;
+    --health-excellent-glow: 142 71% 35%;
+    --health-good: 220 100% 55%;
+    --health-good-glow: 220 100% 35%;
+    --health-attention: 0 72% 61%;
+    --health-attention-glow: 0 72% 41%;
+    --health-critical: 0 84% 70%;
+    --health-critical-glow: 0 84% 50%;
+    --health-needs-attention: 45 85% 55%;
+    --health-needs-attention-glow: 45 85% 35%;
+    --health-perfect: 142 71% 65%;
+    --health-perfect-glow: 142 71% 45%;
+
+    /* Glassmorphism Variables - Dark Mode */
+    --glass-bg: 255 255 255;
+    --glass-border: 255 255 255;
+    --glass-shadow: 0 0 0;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Enhanced Brand & Gradient Utilities */
+@layer utilities {
+  /* Blue Brand Colors */
+  .text-openkey-blue {
+    color: hsl(var(--openkey-blue));
+  }
+  
+  .bg-openkey-blue {
+    background-color: hsl(var(--openkey-blue));
+  }
+  
+  .border-openkey-blue {
+    border-color: hsl(var(--openkey-blue));
+  }
+  
+  .text-openkey-blue-light {
+    color: hsl(var(--openkey-blue-light));
+  }
+  
+  .bg-openkey-blue-light {
+    background-color: hsl(var(--openkey-blue-light));
+  }
+  
+  /* Gold Brand Colors */
+  .text-openkey-gold {
+    color: hsl(var(--openkey-gold));
+  }
+  
+  .bg-openkey-gold {
+    background-color: hsl(var(--openkey-gold));
+  }
+  
+  .border-openkey-gold {
+    border-color: hsl(var(--openkey-gold));
+  }
+  
+  .text-openkey-gold-light {
+    color: hsl(var(--openkey-gold-light));
+  }
+  
+  .bg-openkey-gold-light {
+    background-color: hsl(var(--openkey-gold-light));
+  }
+  
+  /* Premium Gradients */
+  .bg-gradient-blue {
+    background: linear-gradient(135deg, hsl(var(--gradient-blue-start)), hsl(var(--gradient-blue-end)));
+  }
+  
+  .bg-gradient-gold {
+    background: linear-gradient(135deg, hsl(var(--gradient-gold-start)), hsl(var(--gradient-gold-end)));
+  }
+  
+  .bg-gradient-blue-gold {
+    background: linear-gradient(135deg, hsl(var(--gradient-blue-gold-start)), hsl(var(--gradient-blue-gold-end))) !important;
+  }
+  
+  .bg-gradient-blue-gold-horizontal {
+    background: linear-gradient(90deg, hsl(var(--gradient-blue-gold-start)), hsl(var(--gradient-blue-gold-end)));
+  }
+  
+  .bg-gradient-subtle-blue {
+    background: linear-gradient(135deg, hsl(var(--openkey-blue) / 0.05), hsl(var(--openkey-blue) / 0.1));
+  }
+  
+  .bg-gradient-subtle-gold {
+    background: linear-gradient(135deg, hsl(var(--openkey-gold) / 0.05), hsl(var(--openkey-gold) / 0.1));
+  }
+  
+  /* Enhanced Status Colors */
+  .text-success {
+    color: hsl(var(--success));
+  }
+  
+  .bg-success {
+    background-color: hsl(var(--success));
+  }
+  
+  .text-warning {
+    color: hsl(var(--warning));
+  }
+  
+  .bg-warning {
+    background-color: hsl(var(--warning));
+  }
+  
+  .text-danger {
+    color: hsl(var(--danger));
+  }
+  
+  .bg-danger {
+    background-color: hsl(var(--danger));
+  }
+  
+  .text-info {
+    color: hsl(var(--info));
+  }
+  
+  .bg-info {
+    background-color: hsl(var(--info));
+  }
+  
+  /* Enhanced Component Utilities */
+  .card-elevated {
+    background-color: hsl(var(--card-elevated));
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  .card-hover {
+    will-change: transform;
+    backface-visibility: hidden;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  
+  .card-hover:hover {
+    transform: translate3d(0, -1px, 0);
+    box-shadow: 0 8px 20px -4px hsl(var(--openkey-blue) / 0.15);
+  }
+  
+  .card-hover-gold {
+    will-change: transform;
+    backface-visibility: hidden;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    box-shadow: 0 2px 8px -2px hsl(var(--openkey-gold) / 0.1);
+  }
+
+  .card-hover-gold:hover {
+    transform: scale(1.01);
+    box-shadow: 0 12px 32px -8px hsl(var(--openkey-gold) / 0.3), 0 4px 16px -4px hsl(var(--openkey-gold) / 0.2);
+  }
+  
+  .button-primary {
+    background-color: hsl(var(--button-primary));
+    color: hsl(var(--primary-foreground));
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .button-primary:hover {
+    background-color: hsl(var(--button-primary-hover));
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button-secondary {
+    background-color: hsl(var(--button-secondary));
+    color: hsl(var(--primary-foreground));
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .button-secondary:hover {
+    background-color: hsl(var(--button-secondary-hover));
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-focus:focus {
+    border-color: hsl(var(--input-focus));
+    box-shadow: 0 0 0 3px hsl(var(--input-focus) / 0.1);
+  }
+  
+  .table-header {
+    background-color: hsl(var(--table-header));
+  }
+  
+  .table-row-hover:hover {
+    background-color: hsl(var(--table-row-hover));
+  }
+  
+  /* Text Gradients */
+  .text-gradient-blue-gold {
+    background: linear-gradient(135deg, hsl(var(--openkey-blue)), hsl(var(--openkey-gold)));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    display: inline-block;
+  }
+  
+  .text-gradient-blue {
+    background: linear-gradient(135deg, hsl(var(--openkey-blue)), hsl(var(--openkey-blue-light)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Portfolio Health Colors */
+  .text-health-excellent {
+    color: hsl(var(--health-excellent));
+  }
+  
+  .bg-health-excellent {
+    background-color: hsl(var(--health-excellent));
+  }
+  
+  .text-health-good {
+    color: hsl(var(--health-good));
+  }
+  
+  .bg-health-good {
+    background-color: hsl(var(--health-good));
+  }
+  
+  .text-health-attention {
+    color: hsl(var(--health-attention));
+  }
+  
+  .bg-health-attention {
+    background-color: hsl(var(--health-attention));
+  }
+
+  .text-health-critical {
+    color: hsl(var(--health-critical));
+  }
+  
+  .bg-health-critical {
+    background-color: hsl(var(--health-critical));
+  }
+  
+  .text-health-needs-attention {
+    color: hsl(var(--health-needs-attention));
+  }
+  
+  .bg-health-needs-attention {
+    background-color: hsl(var(--health-needs-attention));
+  }
+  
+  .text-health-perfect {
+    color: hsl(var(--health-perfect));
+  }
+  
+  .bg-health-perfect {
+    background-color: hsl(var(--health-perfect));
+  }
+
+  /* Glassmorphism Effects */
+  .glass {
+    background: rgba(var(--glass-bg), 0.1);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(var(--glass-border), 0.2);
+  }
+  
+  .glass-strong {
+    background: rgba(var(--glass-bg), 0.2);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(var(--glass-border), 0.3);
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  }
+
+  .dark .glass-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+  }
+}
+
+/* Hide scrollbar but allow scrolling */
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Enhanced Animations */
+@layer utilities {
+  .animate-fade-in-up {
+    animation: fadeInUp 0.5s ease-out;
+  }
+  
+  .animate-scale-in {
+    animation: scaleIn 0.3s ease-out;
+  }
+  
+  .animate-slide-in-right {
+    animation: slideInRight 0.4s ease-out;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes scaleIn {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes slideInRight {
+    from {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
+
+/* Tour Target Highlight Animation */
+.tour-highlight {
+  animation: tourPulse 2s ease-in-out infinite;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes tourPulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 hsl(var(--openkey-gold) / 0.4),
+                0 0 0 0 hsl(var(--openkey-gold) / 0.2);
+  }
+  50% {
+    box-shadow: 0 0 0 6px hsl(var(--openkey-gold) / 0.3),
+                0 0 16px 10px hsl(var(--openkey-gold) / 0.15);
+  }
+}
+
+/* ============================================
+   INVESTOR LANDING PAGE - PREMIUM DARK THEME
+   ============================================ */
+
+/* Investor Theme Variables */
+:root {
+  --investor-bg: 210 69% 11%;
+  --investor-bg-secondary: 210 60% 15%;
+  --investor-card: 210 50% 18%;
+  --investor-accent-blue: 186 100% 50%;
+  --investor-accent-green: 160 84% 39%;
+  --investor-text: 0 0% 94%;
+  --investor-text-muted: 0 0% 60%;
+  --investor-border: 210 40% 25%;
+  --investor-glow-blue: 186 100% 50%;
+  --investor-glow-green: 160 84% 45%;
+}
+
+/* Investor Page Container */
+.investor-theme {
+  --background: 210 69% 11%;
+  --foreground: 0 0% 94%;
+  --card: 210 50% 15%;
+  --card-foreground: 0 0% 94%;
+  --muted: 210 40% 20%;
+  --muted-foreground: 0 0% 60%;
+  --border: 210 40% 25%;
+  background: hsl(var(--investor-bg));
+  color: hsl(var(--investor-text));
+  min-height: 100vh;
+}
+
+/* Investor Glassmorphism Cards */
+.investor-glass {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.investor-glass-strong {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.08) 0%,
+    rgba(255, 255, 255, 0.03) 100%
+  );
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 
+    0 12px 40px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+/* Electric Blue CTA Button */
+.btn-electric-blue {
+  background: linear-gradient(135deg, hsl(186 100% 50%), hsl(199 100% 50%));
+  color: hsl(210 69% 11%);
+  font-weight: 600;
+  box-shadow: 
+    0 4px 20px hsl(186 100% 50% / 0.3),
+    0 0 40px hsl(186 100% 50% / 0.1);
+  transition: all 0.3s ease;
+}
+
+.btn-electric-blue:hover {
+  transform: translateY(-2px);
+  box-shadow: 
+    0 8px 30px hsl(186 100% 50% / 0.5),
+    0 0 60px hsl(186 100% 50% / 0.2);
+}
+
+.btn-electric-blue:focus-visible {
+  outline: 2px solid hsl(186 100% 50%);
+  outline-offset: 2px;
+}
+
+/* Success Green CTA Button */
+.btn-success-green {
+  background: linear-gradient(135deg, hsl(160 84% 39%), hsl(160 84% 45%));
+  color: white;
+  font-weight: 600;
+  box-shadow: 
+    0 4px 20px hsl(160 84% 39% / 0.3),
+    0 0 40px hsl(160 84% 39% / 0.1);
+  transition: all 0.3s ease;
+}
+
+.btn-success-green:hover {
+  transform: translateY(-2px);
+  box-shadow: 
+    0 8px 30px hsl(160 84% 39% / 0.5),
+    0 0 60px hsl(160 84% 39% / 0.2);
+}
+
+/* Ghost Button for Dark Theme */
+.btn-investor-ghost {
+  background: transparent;
+  color: hsl(0 0% 94%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.btn-investor-ghost:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Investor Text Gradient */
+.text-gradient-electric {
+  background: linear-gradient(135deg, hsl(186 100% 60%), hsl(160 84% 50%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* Investor Background Gradient */
+.bg-investor-gradient {
+  background: linear-gradient(
+    180deg,
+    hsl(210 69% 11%) 0%,
+    hsl(210 60% 8%) 50%,
+    hsl(210 69% 11%) 100%
+  );
+}
+
+/* Animated Glow Effect */
+@keyframes investorGlow {
+  0%, 100% {
+    box-shadow: 
+      0 0 20px hsl(186 100% 50% / 0.2),
+      0 0 40px hsl(186 100% 50% / 0.1);
+  }
+  50% {
+    box-shadow: 
+      0 0 30px hsl(186 100% 50% / 0.4),
+      0 0 60px hsl(186 100% 50% / 0.2);
+  }
+}
+
+.animate-investor-glow {
+  animation: investorGlow 3s ease-in-out infinite;
+}
+
+/* Bento Grid Hover Effect */
+.bento-card {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bento-card:hover {
+  transform: translateY(-4px) scale(1.01);
+  border-color: hsl(186 100% 50% / 0.3);
+  box-shadow: 
+    0 20px 50px rgba(0, 0, 0, 0.5),
+    0 0 30px hsl(186 100% 50% / 0.1);
+}
+
+/* Metric Ticker Animation */
+@keyframes tickerSlide {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.ticker-animate {
+  animation: tickerSlide 30s linear infinite;
+}
+
+/* Floating Orb Animation */
+@keyframes floatOrb {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0.3;
+  }
+  33% {
+    transform: translate(30px, -30px) scale(1.1);
+    opacity: 0.5;
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+    opacity: 0.4;
+  }
+}
+
+.animate-float-orb {
+  animation: floatOrb 15s ease-in-out infinite;
+}
+
+.animate-float-orb-delayed {
+  animation: floatOrb 18s ease-in-out infinite;
+  animation-delay: -5s;
+}
+
+.animate-float-orb-slow {
+  animation: floatOrb 22s ease-in-out infinite;
+  animation-delay: -10s;
+}
+
+/* ============================================
+   COMMAND CENTER - WEALTH MANAGEMENT THEME
+   ============================================ */
+
+/* Command Center Dark Gradient Background */
+.bg-command-center {
+  background: linear-gradient(
+    180deg,
+    hsl(220 100% 8%) 0%,
+    hsl(220 80% 12%) 50%,
+    hsl(220 100% 8%) 100%
+  );
+}
+
+/* Blue-to-Gold CTA Button */
+.btn-blue-gold {
+  background: linear-gradient(135deg, hsl(220 100% 45%), hsl(45 85% 50%));
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 4px 20px hsl(220 100% 45% / 0.3);
+  transition: all 0.3s ease;
+}
+
+.btn-blue-gold:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px hsl(45 85% 50% / 0.4);
+}
+
+.btn-blue-gold:focus-visible {
+  outline: 2px solid hsl(45 85% 50%);
+  outline-offset: 2px;
+}
+
+/* Command Center Bento Card */
+.command-bento-card {
+  background: hsl(var(--card));
+  backdrop-filter: blur(20px);
+  border: 1px solid hsl(var(--border));
+  border-radius: 1.5rem;
+  transition: all 0.4s ease;
+}
+
+.command-bento-card:hover {
+  border-color: hsl(var(--openkey-blue) / 0.3);
+  transform: translateY(-4px);
+  box-shadow: 0 20px 50px hsl(var(--openkey-blue) / 0.1);
+}
+
+/* ============================================
+   COMMAND CENTER - DASHBOARD STYLING
+   ============================================ */
+
+/* Command Center Card (for dashboard use) - Enhanced for Billion Dollar SaaS */
+.command-card {
+  background: hsl(var(--card));
+  border: 1px solid hsl(var(--border) / 0.5);
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 40px -8px hsl(0 0% 0% / 0.08);
+  transition: all 0.3s ease;
+}
+
+.command-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 48px -8px hsl(var(--openkey-blue) / 0.12);
+  border-color: hsl(var(--openkey-blue) / 0.2);
+}
+
+/* Command Center Metric Card - Intelligence Tile Style */
+.command-metric-card {
+  background: hsl(var(--card));
+  border: 1px solid hsl(var(--border) / 0.5);
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 40px -8px hsl(0 0% 0% / 0.08);
+  transition: all 0.3s ease;
+}
+
+.command-metric-card:hover {
+  transform: translateY(-3px) scale(1.01);
+  box-shadow: 0 16px 48px -8px hsl(var(--openkey-gold) / 0.15);
+  border-color: hsl(var(--openkey-gold) / 0.3);
+}
+
+/* Command Center Tab Navigation */
+.command-tabs {
+  background: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
+  border-radius: 1rem;
+  padding: 0.25rem;
+  box-shadow: 0 2px 12px -2px hsl(var(--openkey-blue) / 0.06);
+}
+
+/* Command Tab Trigger - base state */
+.command-tab-trigger {
+  border-radius: 0.75rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  color: hsl(var(--foreground));
+}
+
+.command-tab-trigger:hover {
+  background: hsl(var(--muted));
+}
+
+/* Command Tab Trigger - active state via data attribute */
+.command-tab-trigger[data-state="active"] {
+  background: linear-gradient(135deg, hsl(var(--openkey-blue)), hsl(var(--openkey-gold)));
+  color: white;
+  box-shadow: 0 2px 8px -2px hsl(var(--openkey-blue) / 0.3);
+}
+
+/* Command Center Section Header Icon */
+.command-section-icon {
+  padding: 0.75rem;
+  border-radius: 0.875rem;
+  background: linear-gradient(135deg, hsl(var(--openkey-blue)), hsl(var(--openkey-gold)));
+  box-shadow: 0 4px 12px -2px hsl(var(--openkey-blue) / 0.25);
+}
+
+/* Command Center Primary Button */
+.btn-command-primary {
+  background: linear-gradient(135deg, hsl(var(--openkey-blue)), hsl(var(--openkey-gold)));
+  color: white;
+  font-weight: 600;
+  border: none;
+  box-shadow: 0 4px 16px -4px hsl(var(--openkey-blue) / 0.3);
+  transition: all 0.3s ease;
+}
+
+.btn-command-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px -4px hsl(var(--openkey-gold) / 0.4);
+}
+
+/* ============================================
+   COMMAND CENTER - SECTION HEADERS (Minimalist)
+   ============================================ */
+
+/* Off-white section background for clean headers */
+.bg-command-section {
+  background: linear-gradient(180deg, hsl(210 40% 98%) 0%, hsl(var(--background)) 100%);
+}
+
+/* Minimalist section header card */
+.command-section-header {
+  background: hsl(var(--card));
+  border: 1px solid hsl(var(--border) / 0.5);
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 24px -4px hsl(0 0% 0% / 0.06);
+  padding: 2rem 2.5rem;
+}
+
+/* ============================================
+   GROWTH & STRUCTURAL UTILITIES
+   ============================================ */
+
+/* Positive Performance - Gold Highlights */
+.text-growth {
+  color: hsl(var(--openkey-gold));
+}
+
+.bg-growth-subtle {
+  background: hsl(var(--openkey-gold) / 0.1);
+}
+
+.badge-growth {
+  background: hsl(var(--openkey-gold) / 0.15);
+  color: hsl(var(--openkey-gold-dark));
+}
+
+/* Structural Navy */
+.text-structural {
+  color: hsl(var(--openkey-blue));
+}
+
+.border-structural {
+  border-color: hsl(var(--openkey-blue) / 0.2);
+}
+
+/* ============================================
+   PROPERTY GALLERY CARDS
+   ============================================ */
+
+/* Gallery tile card styling */
+.property-gallery-card {
+  background: hsl(var(--card));
+  border: 1px solid hsl(var(--border) / 0.5);
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 40px -8px hsl(0 0% 0% / 0.08);
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.property-gallery-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 60px -12px hsl(var(--openkey-blue) / 0.15);
+  border-color: hsl(var(--openkey-blue) / 0.3);
+}
+
+/* HAP Split Progress Bar */
+.hap-split-bar {
+  height: 0.5rem;
+  border-radius: 9999px;
+  overflow: hidden;
+  display: flex;
+  background: hsl(var(--muted));
+}
+
+.hap-split-bar .hap-portion {
+  background: hsl(var(--success));
+  transition: width 0.3s ease;
+}
+
+.hap-split-bar .tenant-portion {
+  background: hsl(var(--openkey-blue));
+  transition: width 0.3s ease;
+}
+
+/* High-Density Table Styling */
+.table-compact {
+  font-size: 0.8125rem;
+}
+
+.table-compact th,
+.table-compact td {
+  padding: 0.5rem 0.75rem;
+}
+
+.table-compact th {
+  background: hsl(var(--table-header));
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.6875rem;
+  letter-spacing: 0.05em;
+  color: hsl(var(--muted-foreground));
+}
+
+.table-compact tr:hover td {
+  background: hsl(var(--table-row-hover));
+}
+
+/* Command Center Table Container */
+.command-table-container {
+  border: 1px solid hsl(var(--border));
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 24px -4px hsl(0 0% 0% / 0.06);
+}
+
+/* ============================================
+   CURRENCY TOGGLE - COMPACT DROPDOWN
+   ============================================ */
+
+.currency-toggle-compact {
+  position: relative;
+}
+
+.currency-toggle-trigger {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.5rem 0.75rem;
+  background: hsl(var(--openkey-blue));
+  color: white;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  font-size: 0.8125rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.currency-toggle-trigger:hover {
+  background: hsl(var(--openkey-blue) / 0.9);
+  box-shadow: 0 4px 12px -2px hsl(var(--openkey-blue) / 0.3);
+}
+
+.currency-toggle-trigger .currency-symbol {
+  font-size: 0.875rem;
+  opacity: 0.85;
+}
+
+.currency-toggle-trigger .currency-code {
+  font-weight: 600;
+}
+
+.currency-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 0.375rem;
+  background: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
+  border-radius: 0.5rem;
+  box-shadow: 
+    0 10px 40px -10px hsl(0 0% 0% / 0.15),
+    0 0 0 1px hsl(var(--border) / 0.5);
+  overflow: hidden;
+  z-index: 50;
+  min-width: 100%;
+}
+
+.currency-dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.625rem 0.875rem;
+  text-align: left;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: hsl(var(--foreground));
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.currency-dropdown-item:hover {
+  background: hsl(var(--muted));
+}
+
+.currency-dropdown-item .currency-symbol {
+  opacity: 0.6;
+  font-size: 0.875rem;
+}
+
+/* ============================================
+   BILLION DOLLAR SAAS - ENHANCED STYLES
+   ============================================ */
+
+/* Section Label - Uppercase Tracking */
+.command-section-label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: hsl(186 100% 50%);
+}
+
+/* Enhanced Bento Card Hover */
+.command-bento-card {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.command-bento-card:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 
+    0 24px 60px -12px hsl(var(--openkey-blue) / 0.15),
+    0 0 40px hsl(var(--openkey-gold) / 0.06);
+  border-color: hsl(var(--openkey-gold) / 0.3);
+}
+
+/* The Everything Card - Premium Spanning Card */
+.command-everything-card {
+  background: linear-gradient(
+    135deg,
+    hsl(var(--card)) 0%,
+    hsl(var(--card)) 100%
+  );
+}
+
+/* Inner Tile for Everything Card */
+.command-inner-tile {
+  background: hsl(var(--muted) / 0.5);
+  border: 1px solid hsl(var(--border) / 0.5);
+  border-radius: 1rem;
+  padding: 1rem;
+  transition: all 0.3s ease;
+}
+
+.command-inner-tile:hover {
+  background: hsl(var(--muted) / 0.8);
+  border-color: hsl(var(--openkey-blue) / 0.2);
+}
+
+/* Feature Pill Badges */
+.command-feature-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: hsl(var(--muted-foreground));
+  background: hsl(var(--muted) / 0.5);
+  border: 1px solid hsl(var(--border) / 0.5);
+  transition: all 0.3s ease;
+}
+
+.command-feature-pill:hover {
+  background: hsl(var(--muted));
+  border-color: hsl(var(--openkey-blue) / 0.3);
+  color: hsl(var(--foreground));
+}
+
+/* Animated HAP Split Bar */
+.hap-split-bar-animated .hap-portion,
+.hap-split-bar-animated .tenant-portion {
+  transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Premium Activity Feed Item */
+.command-activity-item {
+  transition: all 0.3s ease;
+  border: 1px solid hsl(var(--border) / 0.5);
+  border-radius: 1rem;
+}
+
+.command-activity-item:hover {
+  border-color: hsl(var(--openkey-blue) / 0.3);
+  box-shadow: 0 4px 16px -4px hsl(var(--openkey-blue) / 0.1);
+}

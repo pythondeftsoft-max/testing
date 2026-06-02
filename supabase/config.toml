@@ -1,0 +1,243 @@
+project_id = "kixsdhnfzjnxikmnbipi"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+
+[studio]
+enabled = true
+port = 54323
+
+[inbucket]
+enabled = true
+port = 54324
+smtp_port = 1025
+pop3_port = 1110
+
+[storage]
+enabled = true
+port = 54325
+image_transformation = true
+file_size_limit = "50MiB"
+
+[auth]
+enabled = true
+port = 54326
+site_url = "http://localhost:3000"
+additional_redirect_urls = ["https://localhost:3000"]
+jwt_expiry = 3600
+refresh_token_rotation_enabled = true
+security_update_email_change_enabled = true
+external_email_enabled = true
+
+[rest]
+enabled = true
+port = 54327
+
+[realtime]
+enabled = true
+port = 54328
+
+[functions.process-asset-reminders]
+verify_jwt = false
+
+[functions.process-asset-digest-reminders]
+verify_jwt = false
+
+[functions.admin-rbac]
+verify_jwt = true
+
+[functions.ai-predictive-maintenance]
+verify_jwt = false
+
+[functions.checkbook-webhook]
+verify_jwt = false
+
+[functions.create-checkbook-payout]
+verify_jwt = true
+
+[functions.checkbook-test]
+verify_jwt = true
+
+[functions.plaid-payment-methods]
+verify_jwt = true
+
+[functions.plaid-webhook]
+verify_jwt = false
+
+[functions.admin-user-operations]
+verify_jwt = true
+
+[functions.send-system-admin-invitation]
+verify_jwt = true
+
+[functions.accept-system-admin-invitation]
+verify_jwt = true
+
+[functions.impersonate-user]
+verify_jwt = true
+
+[functions.backfill-lease-renewal-notification]
+verify_jwt = false
+
+[functions.generate-subtasks]
+verify_jwt = true
+
+[functions.suggest-next-tasks]
+verify_jwt = true
+
+[functions.send-test-notification]
+verify_jwt = false
+
+[functions.admin-sync-plan-to-stripe]
+verify_jwt = false
+
+[functions.admin-rent-transactions]
+verify_jwt = true
+
+[functions.admin-hap-transactions]
+verify_jwt = true
+
+[functions.landlord-rent-transactions]
+verify_jwt = true
+
+[functions.landlord-hap-transactions]
+verify_jwt = true
+
+[functions.landlord-all-payments]
+verify_jwt = true
+
+[functions.record-manual-payment]
+verify_jwt = true
+
+[functions.auto-assign-entities]
+verify_jwt = false
+
+[functions.scheduled-auto-assign]
+verify_jwt = false
+
+[functions.backfill-tenant-territories]
+verify_jwt = false
+
+[functions.create-placement-fee-payment]
+verify_jwt = true
+
+[functions.placement-fee-webhook]
+verify_jwt = false
+
+[functions.confirm-placement-fee-payment]
+verify_jwt = false
+
+[functions.backfill-listing-contracts]
+verify_jwt = false
+
+[functions.update-integration-secrets]
+verify_jwt = true
+
+[functions.test-stripe-connection]
+verify_jwt = true
+
+[functions.expire-stripe-checkout]
+verify_jwt = true
+
+[functions.process-lease-signed-payment]
+verify_jwt = true
+
+[functions.backfill-placement-fee-payment]
+verify_jwt = false
+
+[functions.reconcile-placement-fee-payments]
+verify_jwt = false
+
+[functions.stripe-connect-webhook]
+verify_jwt = false
+
+[functions.landlord-plaid-transactions]
+verify_jwt = true
+
+[functions.backfill-lease-documents]
+verify_jwt = false
+
+[functions.create-rent-checkout]
+verify_jwt = true
+
+[functions.create-rent-payment-intent]
+verify_jwt = true
+
+[functions.handle-autopay-setup-success]
+verify_jwt = true
+
+[functions.process-rent-autopay]
+verify_jwt = false
+
+[functions.scrape-property-listing]
+verify_jwt = false
+
+[functions.process-subscription-cancellations]
+verify_jwt = false
+
+[functions.cancel-tenant-subscription-now]
+verify_jwt = false
+
+[functions.queue-signup]
+verify_jwt = false
+
+[functions.process-pending-signups]
+verify_jwt = false
+
+[functions.n8n-property-webhook]
+verify_jwt = false
+
+[functions.research-blog-topic]
+verify_jwt = false
+
+[functions.generate-seo-blog-post]
+verify_jwt = false
+
+[functions.trigger-blog-generation]
+verify_jwt = false
+
+[functions.n8n-blog-callback]
+verify_jwt = false
+
+[functions.get-upload-urls]
+verify_jwt = false
+
+[functions.translate-blog-post]
+verify_jwt = false
+
+[functions.compute-match-queue]
+verify_jwt = false
+
+[functions.content-api]
+verify_jwt = false
+
+[functions.send-sms]
+verify_jwt = true
+
+[functions.twilio-webhook]
+verify_jwt = false
+
+[functions.log-rent-payment-points]
+verify_jwt = false
+
+[functions.tenant-auto-tag-rent]
+verify_jwt = false
+
+[functions.agent-scout]
+verify_jwt = false
+
+[functions.agent-briefing]
+verify_jwt = false
+
+[functions.parse-document-ai]
+verify_jwt = false
+
+[functions.snapshot-semap-monthly]
+verify_jwt = false

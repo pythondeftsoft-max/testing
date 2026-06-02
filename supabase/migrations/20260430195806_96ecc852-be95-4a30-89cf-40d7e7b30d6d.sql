@@ -1,0 +1,1 @@
+ALTER TABLE public.pha_prospect_notes ADD COLUMN IF NOT EXISTS metadata jsonb;

@@ -1,0 +1,36 @@
+
+-- Batch 2: Remaining functions with search_path hardening
+ALTER FUNCTION update_access_grants_updated_at SET search_path = public;
+ALTER FUNCTION update_access_requests_updated_at SET search_path = public;
+ALTER FUNCTION update_admin_messages_updated_at SET search_path = public;
+ALTER FUNCTION update_asset_market_data_updated_at SET search_path = public;
+ALTER FUNCTION update_custom_reports_updated_at SET search_path = public;
+ALTER FUNCTION update_domain_verification_status SET search_path = public;
+ALTER FUNCTION update_listing_timestamps SET search_path = public;
+ALTER FUNCTION update_maintenance_documents_updated_at SET search_path = public;
+ALTER FUNCTION update_maintenance_updated_at_column SET search_path = public;
+ALTER FUNCTION update_market_data_sources_updated_at SET search_path = public;
+ALTER FUNCTION update_marketplace_applications_updated_at SET search_path = public;
+ALTER FUNCTION update_notification_configurations_updated_at SET search_path = public;
+ALTER FUNCTION update_notifications_updated_at SET search_path = public;
+ALTER FUNCTION update_platform_configs_updated_at SET search_path = public;
+ALTER FUNCTION update_portfolio_assets_updated_at SET search_path = public;
+ALTER FUNCTION update_portfolio_payment_settings_updated_at SET search_path = public;
+ALTER FUNCTION update_property_import_updated_at SET search_path = public;
+ALTER FUNCTION update_property_listing_contracts_updated_at SET search_path = public;
+ALTER FUNCTION update_property_payment_settings_updated_at SET search_path = public;
+ALTER FUNCTION update_rent_credits_updated_at SET search_path = public;
+ALTER FUNCTION update_stripe_connect_accounts_updated_at SET search_path = public;
+ALTER FUNCTION update_subscription_autopay_updated_at SET search_path = public;
+ALTER FUNCTION update_tenant_housing_history_updated_at SET search_path = public;
+ALTER FUNCTION update_tenant_prepayments_updated_at SET search_path = public;
+ALTER FUNCTION update_updated_at SET search_path = public;
+ALTER FUNCTION update_updated_at_timestamp SET search_path = public;
+ALTER FUNCTION update_user_bank_accounts_updated_at SET search_path = public;
+ALTER FUNCTION update_user_points_updated_at SET search_path = public;
+ALTER FUNCTION update_white_label_configs_updated_at SET search_path = public;
+ALTER FUNCTION update_white_label_pricing_tiers_updated_at SET search_path = public;
+ALTER FUNCTION validate_contract_status SET search_path = public;
+ALTER FUNCTION validate_distribution_before_save SET search_path = public;
+ALTER FUNCTION validate_postal_code(text, text) SET search_path = public;
+ALTER FUNCTION validate_property_status_consistency SET search_path = public;

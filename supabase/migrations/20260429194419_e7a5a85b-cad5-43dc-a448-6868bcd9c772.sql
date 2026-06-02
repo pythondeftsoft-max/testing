@@ -1,0 +1,1 @@
+UPDATE public.pha_enrichment SET pha_code = pha_code WHERE id IS NOT NULL;
